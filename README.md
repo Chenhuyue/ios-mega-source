@@ -15,6 +15,22 @@
 - 去重：按 Bundle ID（无 ID 的按应用名），跨源版本合并，每款保留最新 3 个版本，共 2305 个版本条目
 - 每条保留 `origins` 字段注明出处源
 
+## 分类分源（在 ESign / 易能签里实现「筛选」的方式）
+
+签名 App 不读源内的分类筛选（`category` 字段只在 Feather / Ksign 的应用详情里当标签显示，没有筛选界面）。这个生态实现分类的通行办法是**分源**——像胡椒分工具源 / 游戏源一样。所以聚合源另拆了 9 个分类分源，想看哪类就加哪个，加进去整表都是这一类：
+
+- 游戏与模拟器 53：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-games.json`
+- 影音娱乐 63：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-media.json`
+- 社交通讯 42：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-social.json`
+- 工具效率 46：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-tools.json`
+- 系统与开发 29：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-system.json`
+- 摄影修图 46：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-photo.json`
+- 阅读学习 33：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-read.json`
+- 健康运动 33：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-health.json`
+- 生活出行 44：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-life.json`
+
+「其他」742 款只在全量版里，不单独出分源。全量版与分源内容重叠，App 里加了分源可以删全量版，反之亦然。
+
 ## 分类（2026-11-09 补，规则自动分类）
 
 每条应用带 `category` 字段，文件内按类分组排序。按名称 / Bundle ID / 简介关键词判定：
