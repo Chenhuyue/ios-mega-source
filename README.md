@@ -17,7 +17,7 @@
 
 ## 分类分源（在 ESign / 易能签里实现「筛选」的方式）
 
-易能签（EnSign）的筛选面板只认 AltStore 标准 `category` 取值（8 类英文值），全量源已按此映射（见下方分类节），在 App 里刷新源后即可直接按类筛选。另备 9 个分类分源（按中文细类拆分，想只看一类时可用，非必须）：
+易能签（EnSign）筛选面板按条目的 `type` 数字码分类（2026-11-09 真机对照实测：1=应用、2=游戏、3=影视，category 字段不参与筛选）。全量源已按此写入：游戏与模拟器→2、影音娱乐→3、其余→1，在 App 里刷新源后即可按类筛选。另备 9 个分类分源（按中文细类拆分，想只看一类时可用，非必须）：
 
 - 游戏与模拟器 53：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-games.json`
 - 影音娱乐 63：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-media.json`
