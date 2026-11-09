@@ -17,7 +17,7 @@
 
 ## 分类分源（在 ESign / 易能签里实现「筛选」的方式）
 
-签名 App 不读源内的分类筛选（`category` 字段只在 Feather / Ksign 的应用详情里当标签显示，没有筛选界面）。这个生态实现分类的通行办法是**分源**——像胡椒分工具源 / 游戏源一样。所以聚合源另拆了 9 个分类分源，想看哪类就加哪个，加进去整表都是这一类：
+易能签（EnSign）的筛选面板只认 AltStore 标准 `category` 取值（8 类英文值），全量源已按此映射（见下方分类节），在 App 里刷新源后即可直接按类筛选。另备 9 个分类分源（按中文细类拆分，想只看一类时可用，非必须）：
 
 - 游戏与模拟器 53：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-games.json`
 - 影音娱乐 63：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-media.json`
@@ -33,7 +33,7 @@
 
 ## 分类（2026-11-09 补，规则自动分类）
 
-每条应用带 `category` 字段，文件内按类分组排序。按名称 / Bundle ID / 简介关键词判定：
+每条应用带 `category` 字段（EnSign/AltStore 标准取值：games、entertainment、social、utilities、developer、photo-video、lifestyle、other，筛选面板按它分类）与 `categoryCN` 字段（中文细类，下方计数按细类），文件内按细类分组排序。细类按名称 / Bundle ID / 简介关键词判定，映射关系：游戏与模拟器→games、影音娱乐→entertainment、社交通讯→social、工具效率→utilities、系统与开发→developer、摄影修图→photo-video、阅读学习＋健康运动＋生活出行→lifestyle、其他→other：
 
 - 游戏与模拟器 53 · 影音娱乐 63 · 社交通讯 42 · 工具效率 46 · 系统与开发 29
 - 摄影修图 46 · 阅读学习 33 · 健康运动 33 · 生活出行 44 · 其他 742
