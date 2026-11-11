@@ -1,18 +1,18 @@
 # 煤球聚合源
 
-把 11 个 iOS 软件源合并去重成一个源，在签名 App 里加一次即可。
+把 12 个 iOS 软件源合并去重成一个源，在签名 App 里加一次即可。
 
 ## 导入地址
 
 - 通用版（易能签 / 全能签 / ESign）：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-source.json`
-  - 1131 款应用，含 46 款无 Bundle ID 条目（源自轻松签聚合源、全能签官方源，只能在 ESign 系 App 里用）
+  - 1183 款应用，含 46 款无 Bundle ID 条目（源自轻松签聚合源、全能签官方源，只能在 ESign 系 App 里用）
 - AltStore 严格版（Feather / SideStore / AltStore）：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-source-altstore.json`
-  - 1085 款应用，全部带完整 Bundle ID
+  - 1137 款应用，全部带完整 Bundle ID
 
 ## 合并口径（2026-11-09 生成）
 
-- 来源：轻松签聚合源、全能签官方源、AppTesters IPA Repo、swaggyP36000 IPA Library、CyPwn IPA Library、Quantum Source、SideStore Team Picks、Burrito's AltStore、OatmealDome / DolphiniOS、Flycast 官方源、iSH 官方源
-- 去重：按 Bundle ID（无 ID 的按应用名），跨源版本合并，每款保留最新 3 个版本，共 2305 个版本条目
+- 来源：轻松签聚合源、全能签官方源、AppTesters IPA Repo、swaggyP36000 IPA Library、CyPwn IPA Library、Quantum Source、SideStore Team Picks、Burrito's AltStore、OatmealDome / DolphiniOS、Flycast 官方源、iSH 官方源、AltGallery
+- 去重：按 Bundle ID（无 ID 的按应用名），跨源版本合并，每款保留最新 3 个版本，共 2362 个版本条目
 - 每条保留 `origins` 字段注明出处源
 
 ## 排序与中文名（2026-11-09 晚，用户要求「中文热门前置，英文翻译」）
@@ -22,12 +22,12 @@
 
 ## 分类分源（在 ESign / 易能签里实现「筛选」的方式）
 
-易能签（EnSign）筛选面板按条目的 `type` 数字码分类（2026-11-09 真机对照实测：1=应用、2=游戏、3=影视，category 字段不参与筛选）。全量源已按此写入：游戏与模拟器→2、影音娱乐→3、其余→1，在 App 里刷新源后即可按类筛选。另备 9 个分类分源（按中文细类拆分，想只看一类时可用，非必须）：
+易能签（EnSign）筛选面板按条目的 `type` 数字码分类（2026-11-09/12 真机对照实测，面板共 5 类：1=应用、2=游戏、3=影音、4=工具、5=插件，category 字段不参与筛选）。全量源已按此写入（2026-11-12）：应用 960、游戏 65、影音 71、工具 82（系统与开发＋工具效率）、插件 5（下载件为 .deb/.dylib 的条目），在 App 里刷新源后即可按类筛选。另备 9 个分类分源（按中文细类拆分，想只看一类时可用，非必须）：
 
-- 游戏与模拟器 53：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-games.json`
-- 影音娱乐 63：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-media.json`
-- 社交通讯 42：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-social.json`
-- 工具效率 46：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-tools.json`
+- 游戏与模拟器 65：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-games.json`
+- 影音娱乐 71：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-media.json`
+- 社交通讯 45：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-social.json`
+- 工具效率 47：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-tools.json`
 - 系统与开发 29：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-system.json`
 - 摄影修图 46：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-photo.json`
 - 阅读学习 33：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-read.json`
@@ -35,6 +35,13 @@
 - 生活出行 44：`https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/mega-life.json`
 
 「其他」742 款只在全量版里，不单独出分源。全量版与分源内容重叠，App 里加了分源可以删全量版，反之亦然。
+
+## 介绍汉化（2026-11-12，用户要求英文介绍全部汉化）
+
+- 官方优先：按 Bundle ID 查 iTunes 中国区，379 款用上了官方中文介绍。
+- 其余英文/日文介绍全文翻译：唯一文本 382 条全部译完（其中 60 条由千问译、322 条由 Muse 自有模型译），应用级与版本级介绍均已接入；超长介绍（更新日志型）在应用级截断展示、版本级保留全文。
+- 结果：1182 款有介绍的应用里，真实文字介绍已全部中文；仅剩的非中文条目是纯 URL、版本字符串、产品名这类无可译内容。
+- 映射缓存：cn-desc.json（官方介绍）、desc-cn.json（译文）。
 
 ## 分类（2026-11-09 补，规则自动分类）
 
