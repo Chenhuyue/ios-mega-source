@@ -1,0 +1,174 @@
+{
+ "version": 1,
+ "updated": "2026-11-16",
+ "spaces": [
+  {
+   "name": "VPS 总台",
+   "slug": "vps-zi-chan-guan-li",
+   "color": "#5B8DEF",
+   "mark": "VPS",
+   "cat": "常用",
+   "fav": true
+  },
+  {
+   "name": "API 与 AI 管理",
+   "slug": "api-yu-ai-guan-li",
+   "color": "#7C5CFC",
+   "mark": "API",
+   "cat": "常用",
+   "fav": true
+  },
+  {
+   "name": "薅羊毛",
+   "slug": "dian-zi-chan-pin-hao-yang-mao",
+   "color": "#FF9F43",
+   "mark": "羊毛",
+   "cat": "常用",
+   "fav": true
+  },
+  {
+   "name": "AV 个性化推荐",
+   "slug": "av-ge-xing-hua-tui-jian",
+   "color": "#FF5C7A",
+   "mark": "AV",
+   "cat": "常用",
+   "fav": true
+  },
+  {
+   "name": "3D 办公室",
+   "slug": "3d-ban-gong-shi",
+   "color": "#38B2AC",
+   "mark": "3D",
+   "cat": "日常总台",
+   "fav": false
+  },
+  {
+   "name": "搁置与未完成总览",
+   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan",
+   "color": "#9AA3B2",
+   "mark": "搁置",
+   "cat": "日常总台",
+   "fav": false
+  },
+  {
+   "name": "Telegram 管理看板",
+   "slug": "telegram-guan-li-kan-ban",
+   "color": "#37AEE2",
+   "mark": "TG",
+   "cat": "日常总台",
+   "fav": false
+  },
+  {
+   "name": "自慰记录看板",
+   "slug": "zi-wei-ji-lu-kan-ban",
+   "color": "#A55EEA",
+   "mark": "记录",
+   "cat": "日常总台",
+   "fav": false
+  },
+  {
+   "name": "捡垃圾情报站",
+   "slug": "jian-la-ji-qing-bao-zhan",
+   "color": "#26C281",
+   "mark": "捡漏",
+   "cat": "情报羊毛",
+   "fav": false
+  },
+  {
+   "name": "闲鱼蹲货看板",
+   "slug": "xian-yu-dun-huo-kan-ban",
+   "color": "#FF7B54",
+   "mark": "闲鱼",
+   "cat": "情报羊毛",
+   "fav": false
+  },
+  {
+   "name": "VPS 监控看板",
+   "slug": "vps-jian-kong-kan-ban",
+   "color": "#4BCFFA",
+   "mark": "监控",
+   "cat": "情报羊毛",
+   "fav": false
+  },
+  {
+   "name": "网名雷达",
+   "slug": "sherlock-kan-ban",
+   "color": "#FD79A8",
+   "mark": "雷达",
+   "cat": "情报羊毛",
+   "fav": false
+  },
+  {
+   "name": "HGhub Web 看板",
+   "slug": "hghub-web-kan-ban",
+   "color": "#F6B93B",
+   "mark": "HG",
+   "cat": "内容创作",
+   "fav": false
+  },
+  {
+   "name": "图片提示词库",
+   "slug": "tu-pian-ti-shi-ci-ku",
+   "color": "#6C5CE7",
+   "mark": "词库",
+   "cat": "内容创作",
+   "fav": false
+  },
+  {
+   "name": "无限画布",
+   "slug": "wu-xian-hua-bu",
+   "color": "#00CEC9",
+   "mark": "画布",
+   "cat": "内容创作",
+   "fav": false
+  },
+  {
+   "name": "云电脑出图台",
+   "slug": "yun-dian-nao-chu-tu-tai",
+   "color": "#74B9FF",
+   "mark": "出图",
+   "cat": "内容创作",
+   "fav": false
+  },
+  {
+   "name": "iOS 签名工具箱",
+   "slug": "ios-qian-ming-gong-ju-xiang",
+   "color": "#E17055",
+   "mark": "签名",
+   "cat": "工具调研",
+   "fav": false
+  },
+  {
+   "name": "Recent 案例拆解看板",
+   "slug": "recent-an-li-chai-jie-kan-ban",
+   "color": "#55E6C1",
+   "mark": "案例",
+   "cat": "工具调研",
+   "fav": false
+  },
+  {
+   "name": "找源技术调研",
+   "slug": "zhao-yuan-ji-shu-diao-yan",
+   "color": "#B8C2CC",
+   "mark": "找源",
+   "cat": "工具调研",
+   "fav": false
+  },
+  {
+   "name": "Apple TV 调研",
+   "slug": "apple-tv",
+   "color": "#7A8699",
+   "mark": "TV",
+   "cat": "工具调研",
+   "fav": false
+  },
+  {
+   "name": "云 GPU 调研",
+   "slug": "gpu",
+   "color": "#FDCB6E",
+   "mark": "GPU",
+   "cat": "工具调研",
+   "fav": false
+  }
+ ]
+}
