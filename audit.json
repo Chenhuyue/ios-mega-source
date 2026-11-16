@@ -1,0 +1,533 @@
+{
+ "generated_at": "2026-11-16 22:40",
+ "counts": {
+  "spaces": 22,
+  "sidebar": 1,
+  "skills_custom": 14,
+  "crons": 40,
+  "crons_high_freq": 10,
+  "goals_dirs": 45
+ },
+ "spaces": [
+  {
+   "name": "3D 办公室",
+   "slug": "3d-ban-gong-shi",
+   "placement": "library"
+  },
+  {
+   "name": "API 与 AI 管理",
+   "slug": "api-yu-ai-guan-li",
+   "placement": "library"
+  },
+  {
+   "name": "Apple TV 调研",
+   "slug": "apple-tv",
+   "placement": "library"
+  },
+  {
+   "name": "AV 个性化推荐",
+   "slug": "av-ge-xing-hua-tui-jian",
+   "placement": "library"
+  },
+  {
+   "name": "薅羊毛",
+   "slug": "dian-zi-chan-pin-hao-yang-mao",
+   "placement": "library"
+  },
+  {
+   "name": "搁置与未完成总览",
+   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan",
+   "placement": "library"
+  },
+  {
+   "name": "云 GPU 调研",
+   "slug": "gpu",
+   "placement": "library"
+  },
+  {
+   "name": "HGhub Web 看板",
+   "slug": "hghub-web-kan-ban",
+   "placement": "library"
+  },
+  {
+   "name": "iOS 签名工具箱",
+   "slug": "ios-qian-ming-gong-ju-xiang",
+   "placement": "library"
+  },
+  {
+   "name": "捡垃圾情报站",
+   "slug": "jian-la-ji-qing-bao-zhan",
+   "placement": "library"
+  },
+  {
+   "name": "空间启动器",
+   "slug": "kong-jian-qi-dong-qi",
+   "placement": "sidebar"
+  },
+  {
+   "name": "Recent 案例拆解看板",
+   "slug": "recent-an-li-chai-jie-kan-ban",
+   "placement": "library"
+  },
+  {
+   "name": "网名雷达",
+   "slug": "sherlock-kan-ban",
+   "placement": "library"
+  },
+  {
+   "name": "Telegram 管理看板",
+   "slug": "telegram-guan-li-kan-ban",
+   "placement": "library"
+  },
+  {
+   "name": "图片提示词库",
+   "slug": "tu-pian-ti-shi-ci-ku",
+   "placement": "library"
+  },
+  {
+   "name": "VPS 监控看板",
+   "slug": "vps-jian-kong-kan-ban",
+   "placement": "library"
+  },
+  {
+   "name": "VPS 总台",
+   "slug": "vps-zi-chan-guan-li",
+   "placement": "library"
+  },
+  {
+   "name": "无限画布",
+   "slug": "wu-xian-hua-bu",
+   "placement": "library"
+  },
+  {
+   "name": "闲鱼蹲货看板",
+   "slug": "xian-yu-dun-huo-kan-ban",
+   "placement": "library"
+  },
+  {
+   "name": "云电脑出图台",
+   "slug": "yun-dian-nao-chu-tu-tai",
+   "placement": "library"
+  },
+  {
+   "name": "找源技术调研",
+   "slug": "zhao-yuan-ji-shu-diao-yan",
+   "placement": "library"
+  },
+  {
+   "name": "自慰记录看板",
+   "slug": "zi-wei-ji-lu-kan-ban",
+   "placement": "library"
+  }
+ ],
+ "crons": [
+  {
+   "id": "akile-expiry-remind-early",
+   "title": "Akile 到期提醒（提前3天）",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "akile-expiry-remind-final",
+   "title": "Akile 到期提醒（到期前一天）",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "api-ai-weekly-refresh",
+   "title": "API与AI管理每周刷新",
+   "cadence": "weekly",
+   "per_day": 0.14,
+   "high_freq": false
+  },
+  {
+   "id": "av-daily-new-films-report",
+   "title": "AV面板每日上新汇报",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "av-reco-daily-refresh",
+   "title": "AV推荐每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "av-reco-weekly-deep",
+   "title": "AV推荐每周深挖",
+   "cadence": "weekly",
+   "per_day": 0.14,
+   "high_freq": false
+  },
+  {
+   "id": "av-trial-verdict-check-late",
+   "title": "AV试跑判定回查",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "chat-title-daily-tidy",
+   "title": "对话标题每日整理",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "clouds666-market-monitor",
+   "title": "六六云二手市场监控",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "deals-digest-morning",
+   "title": "国内优惠早间汇总",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "deals-hourly-scan",
+   "title": "国内优惠汇聚巡检",
+   "cadence": "1h",
+   "per_day": 24,
+   "high_freq": false
+  },
+  {
+   "id": "dianzi-deals-daily-refresh",
+   "title": "电子产品好价刷新",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
+   "id": "fixed-egress-watchdog",
+   "title": "固定出口巡检",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "fuckip-plan-monitor",
+   "title": "独角鲸云套餐监控",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "gezhi-ledger-daily-refresh",
+   "title": "搁置总览台账刷新",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
+   "id": "hghub-web-watchdog",
+   "title": "HGhub服务自愈巡检",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "huawei-growth-center-recheck",
+   "title": "华为云成长中心复查",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "invite-quota-change-alert",
+   "title": "邀请额度变化提醒",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "ios-signing-sources-daily-probe",
+   "title": "iOS软件源每日探活",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "ios-signing-sources-weekly-recheck",
+   "title": "iOS软件源每周复检",
+   "cadence": "weekly",
+   "per_day": 0.14,
+   "high_freq": false
+  },
+  {
+   "id": "jianlaji-intel-daily-refresh",
+   "title": "捡垃圾情报站刷新",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
+   "id": "muse-usage-gist-push",
+   "title": "Muse用量Gist推送",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "musepool-boost-hourly",
+   "title": "码池每小时加速",
+   "cadence": "1h",
+   "per_day": 24,
+   "high_freq": false
+  },
+  {
+   "id": "office-daily-refresh",
+   "title": "3D办公室每日同步",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "promptlib-daily-refresh",
+   "title": "图片提示词库每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "r18-library-weekly-refresh",
+   "title": "r18本地库每周更新",
+   "cadence": "weekly",
+   "per_day": 0.14,
+   "high_freq": false
+  },
+  {
+   "id": "radar-daily-picks",
+   "title": "资源雷达每日精选",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "recent-cases-daily-refresh",
+   "title": "Recent案例库每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "revival-backup-daily",
+   "title": "复活包每日备份",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "seattle-expiry-remind-early",
+   "title": "西雅图到期提醒（提前3天）",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "seattle-expiry-remind-final",
+   "title": "西雅图到期提醒（到期前一天）",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "sherlock-kan-ban-daily-status",
+   "title": "网名雷达每日状态",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "telegram-daily-checkin",
+   "title": "电报每日签到",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "telegram-kan-ban-refresh-daily",
+   "title": "Telegram看板每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "vps-assets-expiry-watch",
+   "title": "VPS资产到期提醒",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "vps-assets-live-sync",
+   "title": "VPS资产实时同步",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "vps-candidates-sync-30m",
+   "title": "VPS候选套餐同步",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "workbuddy-gateway-watchdog",
+   "title": "WorkBuddy网关保活",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "xianyu-hat-monitor",
+   "title": "闲鱼礼帽监控",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "xianyu-thinksmart-monitor",
+   "title": "闲鱼ThinkSmart监控",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  }
+ ],
+ "skills_custom": [
+  "app_creation_real_device_check",
+  "clarify_scope_before_acting",
+  "confidence_calibration",
+  "flyai",
+  "grok_x_search",
+  "identity_gated_task_handoff",
+  "meituan-waimai-h5",
+  "monitor_alert_dedup",
+  "oil-ui",
+  "recent-design-patterns",
+  "repeated_failure_external_review",
+  "ste_zh_fusion",
+  "user_account_quota_use",
+  "x_post_retrieval"
+ ],
+ "system_files": [
+  {
+   "name": "AGENTS.md",
+   "bytes": 15079,
+   "mtime": "2026-11-15"
+  },
+  {
+   "name": "SOUL.md",
+   "bytes": 1686,
+   "mtime": "2026-11-02"
+  },
+  {
+   "name": "IDENTITY.md",
+   "bytes": 255,
+   "mtime": "2026-11-02"
+  },
+  {
+   "name": "USER.md",
+   "bytes": 330,
+   "mtime": "2026-10-22"
+  },
+  {
+   "name": "MEMORY.md",
+   "bytes": 44436,
+   "mtime": "2026-11-16"
+  },
+  {
+   "name": "TOOLS.md",
+   "bytes": 8745,
+   "mtime": "2026-11-15"
+  }
+ ],
+ "memory": {
+  "memory_md_lines": 87,
+  "memory_files": 96,
+  "people_files": 42
+ },
+ "goals_dirs": [
+  "2000822-remote-service-domain",
+  "3d",
+  "api-ai",
+  "av",
+  "chat-title-daily-organization",
+  "clash-bot-72",
+  "goal",
+  "goal-10",
+  "goal-2",
+  "goal-3",
+  "goal-4",
+  "goal-5",
+  "goal-6",
+  "goal-7",
+  "goal-8",
+  "goal-9",
+  "grok-x",
+  "hermes-agent-ios-availability-watch",
+  "hghub-web",
+  "instabox-comfyui",
+  "ios",
+  "ip",
+  "kaggle-h3",
+  "lancer-holylance",
+  "meituan-takeout-login-access",
+  "muse",
+  "muse-24",
+  "muse-account-email-change",
+  "muse-ai",
+  "muse-early-access-program-application-wonder-model-testing",
+  "muse-scriptable-gist",
+  "recent-design",
+  "shelved-and-unfinished-overview",
+  "sherlock",
+  "sichuan-female-voice-cloning-with-voicestudio",
+  "telegram",
+  "telegram-2",
+  "telegram-api",
+  "telegram-bot-check-in-and-cleanup",
+  "thinksmart-view",
+  "us-s-vps",
+  "vps",
+  "vps-2",
+  "workbuddy",
+  "x-suggestive-image-prompt-collection"
+ ],
+ "services": [
+  "Gmail",
+  "Google Drive",
+  "Google Calendar",
+  "高德地图",
+  "TikHub",
+  "WorkBuddy 网关",
+  "DashScope",
+  "TypeSafe",
+  "Poki",
+  "Tailscale",
+  "GitHub (Chenhuyue)"
+ ],
+ "flags": {
+  "high_freq_crons": [
+   "六六云二手市场监控",
+   "固定出口巡检",
+   "独角鲸云套餐监控",
+   "HGhub服务自愈巡检",
+   "邀请额度变化提醒",
+   "Muse用量Gist推送",
+   "VPS资产实时同步",
+   "VPS候选套餐同步",
+   "WorkBuddy网关保活",
+   "闲鱼礼帽监控"
+  ],
+  "note": "高频=每天跑48次以上（30分钟内一轮）；废项目判定不在本数据内、由页面按长期未用标记（后续）"
+ }
+}
