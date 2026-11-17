@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-16 23:10",
+ "build": "2026-11-17 09:22",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-16",
+   "title": "走进广阔的大自然",
+   "copyright": "雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-15",
    "title": "历经岁月，屹立不倒",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-09_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-09_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-08",
-   "title": "艺术与韵律交汇之地",
-   "copyright": "特里亚纳历史街区，塞维利亚，西班牙 (© Andrzej Rostek/Getty Images)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-08_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-08_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-08_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-08_1080x1920.jpg"
     ]
    }
   }
