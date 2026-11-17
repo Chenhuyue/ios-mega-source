@@ -94,6 +94,8 @@ function Card(item: SpaceItem, showSlug: boolean, height: number) {
             <RoundedRectangle cornerRadius={8} fill={item.color} />
             <Image
               imageUrl={iconURL(item.slug)}
+              resizable={{ resizingMode: "stretch" }}
+              frame={{ width: height - 18, height: height - 18 }}
               width={height - 18}
               height={height - 18}
               placeholder={<RoundedRectangle cornerRadius={8} fill={item.color} />}
@@ -219,6 +221,8 @@ function SmallView(spaces: SpaceItem[], page: number, pages: number) {
               <RoundedRectangle cornerRadius={6} fill={item.color} />
               <Image
                 imageUrl={iconURL(item.slug)}
+                resizable={{ resizingMode: "stretch" }}
+                frame={{ width: 24, height: 24 }}
                 width={24}
                 height={24}
                 placeholder={<RoundedRectangle cornerRadius={6} fill={item.color} />}
