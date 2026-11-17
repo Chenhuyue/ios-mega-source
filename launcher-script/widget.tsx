@@ -72,9 +72,9 @@ function Header(total: number) {
         </Text>
       </VStack>
       <Spacer />
-      <ZStack>
+      <ZStack frame={{ width: 76, height: 21 }}>
         <RoundedRectangle cornerRadius={999} fill="rgba(255,255,255,0.10)" />
-        <Text font={10} foregroundStyle="#C9D2E8" padding={{ horizontal: 8, vertical: 3 }}>
+        <Text font={10} foregroundStyle="#C9D2E8">
           {`${total} 个空间`}
         </Text>
       </ZStack>
@@ -90,12 +90,15 @@ function Card(item: SpaceItem, showSlug: boolean, height: number) {
         background={<RoundedRectangle cornerRadius={12} fill={CARD} />}
       >
         <HStack spacing={8} padding={{ horizontal: 9 }} frame={{ maxWidth: "infinity" }}>
-          <Image
-            imageUrl={iconURL(item.slug)}
-            width={height - 18}
-            height={height - 18}
-            placeholder={<RoundedRectangle cornerRadius={8} fill={item.color} />}
-          />
+          <ZStack frame={{ width: height - 18, height: height - 18 }}>
+            <RoundedRectangle cornerRadius={8} fill={item.color} />
+            <Image
+              imageUrl={iconURL(item.slug)}
+              width={height - 18}
+              height={height - 18}
+              placeholder={<RoundedRectangle cornerRadius={8} fill={item.color} />}
+            />
+          </ZStack>
           <VStack alignment="leading" spacing={1}>
             <Text font={12} fontWeight="semibold" foregroundStyle="#F2F5FF">
               {item.name}
@@ -138,25 +141,21 @@ function Pager(page: number, pages: number) {
         {dots}
       </Text>
       <Spacer />
-      <Button intent={PrevPageIntent(undefined)}>
-        <Text
-          font={11}
-          foregroundStyle="#E8EDFF"
-          padding={{ horizontal: 9, vertical: 4 }}
-          background="rgba(255,255,255,0.10)"
-        >
-          ‹ 上页
-        </Text>
+      <Button intent={PrevPageIntent(undefined)} buttonStyle="plain">
+        <ZStack frame={{ width: 62, height: 24 }}>
+          <RoundedRectangle cornerRadius={999} fill="rgba(255,255,255,0.10)" />
+          <Text font={11} foregroundStyle="#E8EDFF">
+            ‹ 上页
+          </Text>
+        </ZStack>
       </Button>
-      <Button intent={NextPageIntent(undefined)}>
-        <Text
-          font={11}
-          foregroundStyle="#E8EDFF"
-          padding={{ horizontal: 9, vertical: 4 }}
-          background="rgba(255,255,255,0.10)"
-        >
-          下页 ›
-        </Text>
+      <Button intent={NextPageIntent(undefined)} buttonStyle="plain">
+        <ZStack frame={{ width: 62, height: 24 }}>
+          <RoundedRectangle cornerRadius={999} fill="rgba(255,255,255,0.10)" />
+          <Text font={11} foregroundStyle="#E8EDFF">
+            下页 ›
+          </Text>
+        </ZStack>
       </Button>
     </HStack>
   )
@@ -168,12 +167,12 @@ function LargeView(spaces: SpaceItem[], page: number, pages: number) {
   const rows: SpaceItem[][] = []
   for (let i = 0; i < items.length; i += 2) rows.push(items.slice(i, i + 2))
   return (
-    <VStack alignment="leading" spacing={9} padding={13} background={BG}>
+    <VStack alignment="leading" spacing={8} padding={13} background={BG}>
       {Header(spaces.length)}
       {rows.map((row) => (
         <HStack spacing={8}>
-          {Card(row[0], true, 56)}
-          {row[1] ? Card(row[1], true, 56) : EmptyCard(56)}
+          {Card(row[0], true, 54)}
+          {row[1] ? Card(row[1], true, 54) : EmptyCard(54)}
         </HStack>
       ))}
       <Spacer />
@@ -216,12 +215,15 @@ function SmallView(spaces: SpaceItem[], page: number, pages: number) {
       {items.map((item) => (
         <Link url={spaceURL(item.slug)}>
           <HStack spacing={7}>
-            <Image
-              imageUrl={iconURL(item.slug)}
-              width={24}
-              height={24}
-              placeholder={<RoundedRectangle cornerRadius={6} fill={item.color} />}
-            />
+            <ZStack frame={{ width: 24, height: 24 }}>
+              <RoundedRectangle cornerRadius={6} fill={item.color} />
+              <Image
+                imageUrl={iconURL(item.slug)}
+                width={24}
+                height={24}
+                placeholder={<RoundedRectangle cornerRadius={6} fill={item.color} />}
+              />
+            </ZStack>
             <Text font={11} foregroundStyle="#EDF1FF">
               {item.name}
             </Text>

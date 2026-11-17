@@ -15,7 +15,7 @@ export const LIST_URLS = [
 ]
 
 export const ICON_BASE =
-  "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/icons"
+  "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/icons-png"
 
 export const LAUNCHER_URL = "https://muse.ai/library/artifacts/kong-jian-qi-dong-qi"
 
@@ -24,7 +24,7 @@ export function spaceURL(slug: string): string {
 }
 
 export function iconURL(slug: string): string {
-  return `${ICON_BASE}/icon-${slug}.webp`
+  return `${ICON_BASE}/icon-${slug}.png`
 }
 
 const SPACES_KEY = "launcher.spaces.v1"
