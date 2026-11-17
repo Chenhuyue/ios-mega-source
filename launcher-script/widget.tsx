@@ -136,7 +136,7 @@ function Pager(page: number, pages: number) {
   return (
     <HStack spacing={8}>
       <Text font={10} foregroundStyle={SUB}>
-        {`第 ${page + 1} / ${pages} 页 · v1.1.2`}
+        {`第 ${page + 1} / ${pages} 页 · v1.1.3`}
       </Text>
       <Spacer />
       <Text font={9} foregroundStyle={SUB}>

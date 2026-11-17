@@ -17,10 +17,10 @@ export const LIST_URLS = [
 export const ICON_BASE =
   "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/icons-png"
 
-export const LAUNCHER_URL = "https://muse.ai/library/artifacts/kong-jian-qi-dong-qi"
+export const LAUNCHER_URL = "hatch://space/kong-jian-qi-dong-qi"
 
 export function spaceURL(slug: string): string {
-  return `https://muse.ai/library/artifacts/${slug}`
+  return `hatch://space/${slug}`
 }
 
 export function iconURL(slug: string): string {
