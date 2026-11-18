@@ -7,15 +7,27 @@ export type SpaceItem = {
   slug: string
   color: string
   fav?: boolean
+  added?: string
+  hits?: number
 }
 
+export type BadgeInfo = { text: string; hot?: boolean }
+export type BadgeMap = Record<string, BadgeInfo>
+
 export const LIST_URLS = [
+  "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/launcher.json",
   "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/launcher.json",
   "https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/launcher.json",
 ]
 
+export const BADGE_URLS = [
+  "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/badges.json",
+  "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/badges.json",
+  "https://raw.githubusercontent.com/Chenhuyue/ios-mega-source/main/badges.json",
+]
+
 export const ICON_BASE =
-  "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/icons-png"
+  "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/icons-png"
 
 export const LAUNCHER_URL = "hatch://space/kong-jian-qi-dong-qi"
 
@@ -31,6 +43,8 @@ const SPACES_KEY = "launcher.spaces.v1"
 const PAGE_KEY = "launcher.page.v1"
 const MANUAL_AT_KEY = "launcher.manualAt.v1"
 const COUNT_KEY = "launcher.count.v1"
+const UPDATED_KEY = "launcher.updated.v1"
+const BADGES_KEY = "launcher.badges.v1"
 const PAGES_KEY = "launcher.pages.v1"
 
 export const FALLBACK: SpaceItem[] = [
@@ -38,6 +52,8 @@ export const FALLBACK: SpaceItem[] = [
   { name: "API 与 AI 管理", slug: "api-yu-ai-guan-li", color: "#7C5CFC", fav: true },
   { name: "薅羊毛", slug: "dian-zi-chan-pin-hao-yang-mao", color: "#FF9F43", fav: true },
   { name: "AV 个性化推荐", slug: "av-ge-xing-hua-tui-jian", color: "#FF5C7A", fav: true },
+  { name: "Muse 宠物房", slug: "muse-chong-wu-fang", color: "#6366F1", added: "2026-11-18" },
+  { name: "星核真3D小样", slug: "xing-he-zhen-3dxiao-yang", color: "#818CF8", added: "2026-11-18" },
   { name: "3D 办公室", slug: "3d-ban-gong-shi", color: "#38B2AC" },
   { name: "搁置与未完成总览", slug: "ge-zhi-yu-wei-wan-cheng-zong-lan", color: "#9AA3B2" },
   { name: "Telegram 管理看板", slug: "telegram-guan-li-kan-ban", color: "#37AEE2" },
@@ -52,15 +68,33 @@ export const FALLBACK: SpaceItem[] = [
   { name: "云电脑出图台", slug: "yun-dian-nao-chu-tu-tai", color: "#74B9FF" },
   { name: "iOS 签名工具箱", slug: "ios-qian-ming-gong-ju-xiang", color: "#E17055" },
   { name: "Recent 案例拆解看板", slug: "recent-an-li-chai-jie-kan-ban", color: "#55E6C1" },
+  { name: "Skills 管理器", slug: "skills-guan-li-qi", color: "#84CC16", added: "2026-11-18" },
   { name: "找源技术调研", slug: "zhao-yuan-ji-shu-diao-yan", color: "#B8C2CC" },
   { name: "Apple TV 调研", slug: "apple-tv", color: "#7A8699" },
   { name: "云 GPU 调研", slug: "gpu", color: "#FDCB6E" },
 ]
 
+function byHitsDesc(list: SpaceItem[]): SpaceItem[] {
+  return list
+    .map((x, i) => ({ x, i }))
+    .sort((a, b) => (b.x.hits ?? 0) - (a.x.hits ?? 0) || a.i - b.i)
+    .map((w) => w.x)
+}
+
+/** 常用置顶；两组内部按使用热度（hits，面板点击统计回流）降序，热度相同保持名单顺序。 */
 function sortedFavFirst(list: SpaceItem[]): SpaceItem[] {
-  const favs = list.filter((x) => x.fav)
-  const rest = list.filter((x) => !x.fav)
+  const favs = byHitsDesc(list.filter((x) => x.fav))
+  const rest = byHitsDesc(list.filter((x) => !x.fav))
   return [...favs, ...rest]
+}
+
+/** 进名单 7 天内算新（面板与小组件的 NEW 标共用口径）。 */
+export function isNew(item: SpaceItem): boolean {
+  if (!item.added) return false
+  const t = Date.parse(item.added + "T00:00:00")
+  if (Number.isNaN(t)) return false
+  const days = (Date.now() - t) / 86400000
+  return days >= 0 && days <= 7
 }
 
 function withTimeout<T>(work: Promise<T>, ms: number): Promise<T | null> {
@@ -70,7 +104,7 @@ function withTimeout<T>(work: Promise<T>, ms: number): Promise<T | null> {
   ]) as Promise<T | null>
 }
 
-async function fetchList(): Promise<SpaceItem[] | null> {
+async function fetchList(): Promise<{ spaces: SpaceItem[]; updated?: string } | null> {
   for (const url of LIST_URLS) {
     const data = await withTimeout(
       (async () => {
@@ -79,28 +113,70 @@ async function fetchList(): Promise<SpaceItem[] | null> {
         const json: any = await res.json()
         const arr = Array.isArray(json) ? json : json.spaces
         if (!Array.isArray(arr) || arr.length === 0) return null
-        return arr
+        const spaces = arr
           .filter((x: any) => x && x.name && x.slug)
           .map((x: any) => ({
             name: String(x.name),
             slug: String(x.slug),
             color: String(x.color ?? "#8A93A6"),
             fav: !!x.fav,
+            added: x.added ? String(x.added) : undefined,
+            hits: typeof x.hits === "number" ? x.hits : undefined,
           })) as SpaceItem[]
+        return { spaces, updated: json && json.updated ? String(json.updated) : undefined }
       })(),
       5000
     )
-    if (data && data.length > 0) return data
+    if (data && data.spaces.length > 0) return data
   }
   return null
 }
 
+async function fetchBadges(): Promise<BadgeMap | null> {
+  for (const url of BADGE_URLS) {
+    const data = await withTimeout(
+      (async () => {
+        const res = await fetch(url)
+        if (!res.ok) return null
+        const json: any = await res.json()
+        const map = json && json.badges
+        if (!map || typeof map !== "object") return null
+        const out: BadgeMap = {}
+        for (const k of Object.keys(map)) {
+          const v = map[k]
+          if (v && v.text) out[k] = { text: String(v.text), hot: !!v.hot }
+        }
+        return out
+      })(),
+      4000
+    )
+    if (data) return data
+  }
+  return null
+}
+
+/** 拉状态角标（成功后写缓存）；失败回退缓存，再失败为空。 */
+export async function loadBadges(): Promise<BadgeMap> {
+  const fresh = await fetchBadges()
+  if (fresh) {
+    Storage.set(BADGES_KEY, fresh)
+    return fresh
+  }
+  const cached = Storage.get<BadgeMap>(BADGES_KEY)
+  return cached && typeof cached === "object" ? cached : {}
+}
+
 /** 拉最新名单（成功后写缓存）；失败回退缓存，再失败回退内置名单。 */
 export async function loadSpaces(): Promise<SpaceItem[]> {
-  const fresh = await fetchList()
+  const got = await fetchList()
+  // 日期防回滚：拉到的名单若比缓存还旧（某 CDN 节点缓存没刷新），不用它，继续走缓存。
+  const cachedUpdated = Storage.get<string>(UPDATED_KEY)
+  const fresh =
+    got && (!got.updated || !cachedUpdated || got.updated >= cachedUpdated) ? got.spaces : null
   if (fresh) {
     Storage.set(SPACES_KEY, fresh)
     Storage.set(COUNT_KEY, fresh.length)
+    if (got && got.updated) Storage.set(UPDATED_KEY, got.updated)
     return sortedFavFirst(fresh)
   }
   const cached = Storage.get<SpaceItem[]>(SPACES_KEY)

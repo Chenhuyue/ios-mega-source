@@ -17,10 +17,13 @@ import {
 } from "scripting"
 import { NextPageIntent, PrevPageIntent } from "./app_intents"
 import {
+  BadgeMap,
   SpaceItem,
   getPage,
   iconURL,
+  isNew,
   lastManualAt,
+  loadBadges,
   loadSpaces,
   setPage,
   setPages,
@@ -82,7 +85,20 @@ function Header(total: number) {
   )
 }
 
-function Card(item: SpaceItem, showSlug: boolean, height: number) {
+function NewTag() {
+  return (
+    <ZStack frame={{ width: 26, height: 12 }}>
+      <RoundedRectangle cornerRadius={999} fill="#E5484D" />
+      <Text font={7} fontWeight="bold" foregroundStyle="#FFFFFF">
+        NEW
+      </Text>
+    </ZStack>
+  )
+}
+
+function Card(item: SpaceItem, showSlug: boolean, height: number, badges: BadgeMap) {
+  const badge = badges[item.slug]
+  const slugText = item.slug.length > 24 ? item.slug.slice(0, 24) + "…" : item.slug
   return (
     <Link url={spaceURL(item.slug)}>
       <ZStack
@@ -102,13 +118,25 @@ function Card(item: SpaceItem, showSlug: boolean, height: number) {
             />
           </ZStack>
           <VStack alignment="leading" spacing={1}>
-            <Text font={12} fontWeight="semibold" foregroundStyle="#F2F5FF">
-              {item.name}
-            </Text>
-            {showSlug ? (
-              <Text font={8} foregroundStyle={FAINT}>
-                {item.slug.length > 24 ? item.slug.slice(0, 24) + "…" : item.slug}
+            <HStack spacing={4}>
+              <Text font={12} fontWeight="semibold" foregroundStyle="#F2F5FF">
+                {item.name}
               </Text>
+              {isNew(item) ? <NewTag /> : null}
+            </HStack>
+            {showSlug || badge ? (
+              <HStack spacing={3}>
+                {showSlug ? (
+                  <Text font={8} foregroundStyle={FAINT}>
+                    {slugText}
+                  </Text>
+                ) : null}
+                {badge ? (
+                  <Text font={8} fontWeight="semibold" foregroundStyle={badge.hot ? "#FF8A8A" : "#D8C58F"}>
+                    {showSlug ? `· ${badge.text}` : badge.text}
+                  </Text>
+                ) : null}
+              </HStack>
             ) : null}
           </VStack>
           <Spacer />
@@ -136,7 +164,7 @@ function Pager(page: number, pages: number) {
   return (
     <HStack spacing={8}>
       <Text font={10} foregroundStyle={SUB}>
-        {`第 ${page + 1} / ${pages} 页 · v1.1.3`}
+        {`第 ${page + 1} / ${pages} 页 · v1.2.0`}
       </Text>
       <Spacer />
       <Text font={9} foregroundStyle={SUB}>
@@ -163,7 +191,7 @@ function Pager(page: number, pages: number) {
   )
 }
 
-function LargeView(spaces: SpaceItem[], page: number, pages: number) {
+function LargeView(spaces: SpaceItem[], page: number, pages: number, badges: BadgeMap) {
   const per = 8
   const items = spaces.slice(page * per, page * per + per)
   const rows: SpaceItem[][] = []
@@ -173,8 +201,8 @@ function LargeView(spaces: SpaceItem[], page: number, pages: number) {
       {Header(spaces.length)}
       {rows.map((row) => (
         <HStack spacing={8}>
-          {Card(row[0], true, 54)}
-          {row[1] ? Card(row[1], true, 54) : EmptyCard(54)}
+          {Card(row[0], true, 54, badges)}
+          {row[1] ? Card(row[1], true, 54, badges) : EmptyCard(54)}
         </HStack>
       ))}
       <Spacer />
@@ -183,7 +211,7 @@ function LargeView(spaces: SpaceItem[], page: number, pages: number) {
   )
 }
 
-function MediumView(spaces: SpaceItem[], page: number, pages: number) {
+function MediumView(spaces: SpaceItem[], page: number, pages: number, badges: BadgeMap) {
   const per = 4
   const items = spaces.slice(page * per, page * per + per)
   const rows: SpaceItem[][] = []
@@ -193,8 +221,8 @@ function MediumView(spaces: SpaceItem[], page: number, pages: number) {
       {Header(spaces.length)}
       {rows.map((row) => (
         <HStack spacing={8}>
-          {Card(row[0], false, 46)}
-          {row[1] ? Card(row[1], false, 46) : EmptyCard(46)}
+          {Card(row[0], false, 46, badges)}
+          {row[1] ? Card(row[1], false, 46, badges) : EmptyCard(46)}
         </HStack>
       ))}
       <Spacer />
@@ -231,6 +259,7 @@ function SmallView(spaces: SpaceItem[], page: number, pages: number) {
             <Text font={11} foregroundStyle="#EDF1FF">
               {item.name}
             </Text>
+            {isNew(item) ? <Circle fill="#E5484D" frame={{ width: 5, height: 5 }} /> : null}
             <Spacer />
           </HStack>
         </Link>
@@ -255,6 +284,12 @@ async function main() {
   } catch {
     spaces = []
   }
+  let badges: BadgeMap = {}
+  try {
+    badges = await loadBadges()
+  } catch {
+    badges = {}
+  }
 
   const per = perPageForFamily()
   const pages = Math.max(1, Math.ceil(spaces.length / per))
@@ -270,14 +305,14 @@ async function main() {
   try {
     switch (Widget.family) {
       case "systemMedium":
-        Widget.present(MediumView(spaces, page, pages), { reloadPolicy })
+        Widget.present(MediumView(spaces, page, pages, badges), { reloadPolicy })
         break
       case "systemSmall":
         Widget.present(SmallView(spaces, page, pages), { reloadPolicy })
         break
       case "systemLarge":
       case "systemExtraLarge":
-        Widget.present(LargeView(spaces, page, pages), { reloadPolicy })
+        Widget.present(LargeView(spaces, page, pages, badges), { reloadPolicy })
         break
       default:
         Widget.present(
