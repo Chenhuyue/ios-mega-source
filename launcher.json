@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-16",
+ "updated": "2026-11-18",
  "spaces": [
   {
    "name": "VPS 总台",
@@ -33,6 +33,22 @@
    "mark": "AV",
    "cat": "常用",
    "fav": true
+  },
+  {
+   "name": "Muse 宠物房",
+   "slug": "muse-chong-wu-fang",
+   "color": "#6366F1",
+   "mark": "宠物",
+   "cat": "内容创作",
+   "fav": false
+  },
+  {
+   "name": "星核真3D小样",
+   "slug": "xing-he-zhen-3dxiao-yang",
+   "color": "#818CF8",
+   "mark": "小样",
+   "cat": "内容创作",
+   "fav": false
   },
   {
    "name": "3D 办公室",
@@ -143,6 +159,14 @@
    "slug": "recent-an-li-chai-jie-kan-ban",
    "color": "#55E6C1",
    "mark": "案例",
+   "cat": "工具调研",
+   "fav": false
+  },
+  {
+   "name": "Skills 管理器",
+   "slug": "skills-guan-li-qi",
+   "color": "#84CC16",
+   "mark": "技能",
    "cat": "工具调研",
    "fav": false
   },
