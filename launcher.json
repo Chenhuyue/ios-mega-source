@@ -40,7 +40,8 @@
    "color": "#6366F1",
    "mark": "宠物",
    "cat": "内容创作",
-   "fav": false
+   "fav": false,
+   "added": "2026-11-18"
   },
   {
    "name": "星核真3D小样",
@@ -48,7 +49,8 @@
    "color": "#818CF8",
    "mark": "小样",
    "cat": "内容创作",
-   "fav": false
+   "fav": false,
+   "added": "2026-11-18"
   },
   {
    "name": "3D 办公室",
@@ -168,7 +170,8 @@
    "color": "#84CC16",
    "mark": "技能",
    "cat": "工具调研",
-   "fav": false
+   "fav": false,
+   "added": "2026-11-18"
   },
   {
    "name": "找源技术调研",
