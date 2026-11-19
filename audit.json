@@ -1,138 +1,148 @@
 {
- "generated_at": "2026-11-18 01:24",
+ "generated_at": "2026-11-19 01:21",
  "counts": {
-  "spaces": 25,
-  "sidebar": 4,
-  "skills_custom": 16,
-  "crons": 42,
+  "spaces": 27,
+  "sidebar": 6,
+  "skills_custom": 46,
+  "crons": 43,
   "crons_high_freq": 10,
-  "goals_dirs": 50
+  "goals_dirs": 53
  },
  "spaces": [
   {
    "name": "3D 办公室",
-   "placement": "library",
-   "slug": "3d-ban-gong-shi"
+   "slug": "3d-ban-gong-shi",
+   "placement": "library"
   },
   {
    "name": "API 与 AI 管理",
-   "placement": "library",
-   "slug": "api-yu-ai-guan-li"
+   "slug": "api-yu-ai-guan-li",
+   "placement": "library"
   },
   {
    "name": "Apple TV 二手市场深度调查与购买决策",
-   "placement": "library",
-   "slug": "apple-tv"
+   "slug": "apple-tv",
+   "placement": "library"
   },
   {
    "name": "AV 个性化推荐",
-   "placement": "library",
-   "slug": "av-ge-xing-hua-tui-jian"
+   "slug": "av-ge-xing-hua-tui-jian",
+   "placement": "library"
   },
   {
    "name": "薅羊毛",
-   "placement": "library",
-   "slug": "dian-zi-chan-pin-hao-yang-mao"
+   "slug": "dian-zi-chan-pin-hao-yang-mao",
+   "placement": "library"
+  },
+  {
+   "name": "多AI群聊空间",
+   "slug": "duo-aiqun-liao-kong-jian",
+   "placement": "sidebar"
   },
   {
    "name": "搁置与未完成总览",
-   "placement": "library",
-   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan"
+   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan",
+   "placement": "library"
   },
   {
    "name": "云GPU租用性价比调研",
-   "placement": "library",
-   "slug": "gpu"
+   "slug": "gpu",
+   "placement": "library"
+  },
+  {
+   "name": "Grok Bot 还原",
+   "slug": "grok-bot-huan-yuan",
+   "placement": "sidebar"
   },
   {
    "name": "HGhub Web 看板",
-   "placement": "library",
-   "slug": "hghub-web-kan-ban"
+   "slug": "hghub-web-kan-ban",
+   "placement": "library"
   },
   {
    "name": "iOS 签名工具箱",
-   "placement": "library",
-   "slug": "ios-qian-ming-gong-ju-xiang"
+   "slug": "ios-qian-ming-gong-ju-xiang",
+   "placement": "library"
   },
   {
    "name": "捡垃圾情报站",
-   "placement": "library",
-   "slug": "jian-la-ji-qing-bao-zhan"
+   "slug": "jian-la-ji-qing-bao-zhan",
+   "placement": "library"
   },
   {
    "name": "空间启动器",
-   "placement": "sidebar",
-   "slug": "kong-jian-qi-dong-qi"
+   "slug": "kong-jian-qi-dong-qi",
+   "placement": "sidebar"
   },
   {
    "name": "Muse 宠物房",
-   "placement": "sidebar",
-   "slug": "muse-chong-wu-fang"
+   "slug": "muse-chong-wu-fang",
+   "placement": "sidebar"
   },
   {
    "name": "Recent 案例拆解看板",
-   "placement": "library",
-   "slug": "recent-an-li-chai-jie-kan-ban"
+   "slug": "recent-an-li-chai-jie-kan-ban",
+   "placement": "library"
   },
   {
    "name": "网名雷达",
-   "placement": "library",
-   "slug": "sherlock-kan-ban"
+   "slug": "sherlock-kan-ban",
+   "placement": "library"
   },
   {
    "name": "Skills 管理器",
-   "placement": "sidebar",
-   "slug": "skills-guan-li-qi"
+   "slug": "skills-guan-li-qi",
+   "placement": "sidebar"
   },
   {
    "name": "Telegram 管理看板",
-   "placement": "library",
-   "slug": "telegram-guan-li-kan-ban"
+   "slug": "telegram-guan-li-kan-ban",
+   "placement": "library"
   },
   {
    "name": "图片提示词库",
-   "placement": "library",
-   "slug": "tu-pian-ti-shi-ci-ku"
+   "slug": "tu-pian-ti-shi-ci-ku",
+   "placement": "library"
   },
   {
    "name": "VPS 监控看板",
-   "placement": "library",
-   "slug": "vps-jian-kong-kan-ban"
+   "slug": "vps-jian-kong-kan-ban",
+   "placement": "library"
   },
   {
    "name": "VPS 总台",
-   "placement": "library",
-   "slug": "vps-zi-chan-guan-li"
+   "slug": "vps-zi-chan-guan-li",
+   "placement": "library"
   },
   {
    "name": "无限画布",
-   "placement": "library",
-   "slug": "wu-xian-hua-bu"
+   "slug": "wu-xian-hua-bu",
+   "placement": "library"
   },
   {
    "name": "闲鱼蹲货看板",
-   "placement": "library",
-   "slug": "xian-yu-dun-huo-kan-ban"
+   "slug": "xian-yu-dun-huo-kan-ban",
+   "placement": "library"
   },
   {
    "name": "星核真3D小样",
-   "placement": "sidebar",
-   "slug": "xing-he-zhen-3dxiao-yang"
+   "slug": "xing-he-zhen-3dxiao-yang",
+   "placement": "sidebar"
   },
   {
    "name": "云电脑出图台",
-   "placement": "library",
-   "slug": "yun-dian-nao-chu-tu-tai"
+   "slug": "yun-dian-nao-chu-tu-tai",
+   "placement": "library"
   },
   {
    "name": "找源技术调研",
-   "placement": "library",
-   "slug": "zhao-yuan-ji-shu-diao-yan"
+   "slug": "zhao-yuan-ji-shu-diao-yan",
+   "placement": "library"
   },
   {
    "name": "自慰记录看板",
-   "placement": "library",
-   "slug": "zi-wei-ji-lu-kan-ban"
+   "slug": "zi-wei-ji-lu-kan-ban",
+   "placement": "library"
   }
  ],
  "crons": [
@@ -291,6 +301,13 @@
    "high_freq": false
   },
   {
+   "id": "magpie-gpt-verify-20261119",
+   "title": "magpie-gpt-verify-20261119",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
    "id": "muse-usage-gist-push",
    "title": "Muse 用量 Gist 推送（每15分钟）",
    "cadence": "15m",
@@ -432,28 +449,58 @@
   }
  ],
  "skills_custom": [
+  "anatomy",
+  "anatomy-reveal",
   "app_creation_real_device_check",
+  "board_data_sync",
   "clarify_scope_before_acting",
   "confidence_calibration",
   "defect_discovery",
   "delivery_gate",
   "flyai",
   "grok_x_search",
+  "hairline-adopt",
+  "hairline-create",
   "identity_gated_task_handoff",
+  "img2threejs",
   "meituan-waimai-h5",
+  "memory_scene_split",
   "monitor_alert_dedup",
+  "motion-design",
   "oil-ui",
+  "ponytail",
+  "ponytail-audit",
+  "ponytail-debt",
+  "ponytail-gain",
+  "ponytail-help",
+  "ponytail-review",
   "recent-design-patterns",
+  "remotion-best-practices",
+  "remotion-captions",
+  "remotion-create",
+  "remotion-docs",
+  "remotion-interactivity",
+  "remotion-license",
+  "remotion-maps",
+  "remotion-markup",
+  "remotion-multimedia",
+  "remotion-render",
+  "remotion-saas",
+  "remotion-studio",
+  "remotion-upgrade",
   "repeated_failure_external_review",
+  "sparkjs",
   "ste_zh_fusion",
+  "threejs-scene",
   "user_account_quota_use",
-  "x_post_retrieval"
+  "x_post_retrieval",
+  "xiaomi_mimo_tts"
  ],
  "system_files": [
   {
    "name": "AGENTS.md",
-   "bytes": 17227,
-   "mtime": "2026-11-17"
+   "bytes": 17575,
+   "mtime": "2026-11-18"
   },
   {
    "name": "SOUL.md",
@@ -467,12 +514,12 @@
   },
   {
    "name": "USER.md",
-   "bytes": 330,
-   "mtime": "2026-10-22"
+   "bytes": 408,
+   "mtime": "2026-11-18"
   },
   {
    "name": "MEMORY.md",
-   "bytes": 47028,
+   "bytes": 21864,
    "mtime": "2026-11-18"
   },
   {
@@ -482,13 +529,14 @@
   }
  ],
  "memory": {
-  "memory_md_lines": 92,
-  "memory_files": 107,
-  "people_files": 49
+  "memory_md_lines": 119,
+  "memory_files": 131,
+  "people_files": 64
  },
  "goals_dirs": [
   "2000822-remote-service-domain",
   "3d",
+  "ai",
   "api-ai",
   "av",
   "chat-title-daily-organization",
@@ -497,6 +545,7 @@
   "goal",
   "goal-10",
   "goal-11",
+  "goal-12",
   "goal-2",
   "goal-3",
   "goal-4",
@@ -527,6 +576,7 @@
   "shelved-and-unfinished-overview",
   "sherlock",
   "sichuan-female-voice-cloning-with-voicestudio",
+  "skills",
   "telegram",
   "telegram-2",
   "telegram-api",
