@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-18 09:26",
+ "build": "2026-11-19 09:24",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-18",
+   "title": "思想在此成形",
+   "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-18_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-18_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-18_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-18_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-17",
    "title": "从黄昏狩猎到黎明",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-11_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-11_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-10",
-   "title": "奇妙纷呈的森林",
-   "copyright": "大西洋森林，巴西 (© FG Trade/Getty Images)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-10_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-10_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-10_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-10_1080x1920.jpg"
     ]
    }
   }
