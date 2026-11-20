@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "spaces": [
   {
    "name": "VPS 总台",
@@ -214,6 +214,33 @@
    "cat": "日常总台",
    "fav": false,
    "added": "2026-11-19"
+  },
+  {
+   "name": "Clash 看板",
+   "slug": "clash-kan-ban",
+   "color": "#818CF8",
+   "mark": "Cl",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-20"
+  },
+  {
+   "name": "四川话发音与谐音换调研究",
+   "slug": "si-chuan-hua-fa-yin-yu-xie-yin-huan-diao-yan-jiu",
+   "color": "#F472B6",
+   "mark": "四川",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-20"
+  },
+  {
+   "name": "预告标记对照样张",
+   "slug": "yu-gao-biao-ji-dui-zhao-yang-zhang",
+   "color": "#34D399",
+   "mark": "预告",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-20"
   }
  ]
 }
