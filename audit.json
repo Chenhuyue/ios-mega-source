@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-19 02:26",
+ "generated_at": "2026-11-20 01:24",
  "counts": {
-  "spaces": 27,
-  "sidebar": 6,
-  "skills_custom": 46,
-  "crons": 44,
-  "crons_high_freq": 11,
-  "goals_dirs": 53
+  "spaces": 30,
+  "sidebar": 9,
+  "skills_custom": 47,
+  "crons": 42,
+  "crons_high_freq": 10,
+  "goals_dirs": 55
  },
  "spaces": [
   {
@@ -28,6 +28,11 @@
    "name": "AV 个性化推荐",
    "slug": "av-ge-xing-hua-tui-jian",
    "placement": "library"
+  },
+  {
+   "name": "Clash 看板",
+   "slug": "clash-kan-ban",
+   "placement": "sidebar"
   },
   {
    "name": "薅羊毛",
@@ -90,6 +95,11 @@
    "placement": "library"
   },
   {
+   "name": "四川话发音与谐音换调研究",
+   "slug": "si-chuan-hua-fa-yin-yu-xie-yin-huan-diao-yan-jiu",
+   "placement": "sidebar"
+  },
+  {
    "name": "Skills 管理器",
    "slug": "skills-guan-li-qi",
    "placement": "sidebar"
@@ -127,6 +137,11 @@
   {
    "name": "星核真3D小样",
    "slug": "xing-he-zhen-3dxiao-yang",
+   "placement": "sidebar"
+  },
+  {
+   "name": "预告标记对照样张",
+   "slug": "yu-gao-biao-ji-dui-zhao-yang-zhang",
    "placement": "sidebar"
   },
   {
@@ -238,13 +253,6 @@
    "high_freq": false
   },
   {
-   "id": "fixed-egress-watchdog",
-   "title": "固定出口巡检（西雅图 VPS）",
-   "cadence": "30m",
-   "per_day": 48,
-   "high_freq": true
-  },
-  {
    "id": "fuckip-plan-monitor",
    "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）",
    "cadence": "15m",
@@ -305,13 +313,6 @@
    "title": "空间启动器自查数据每日刷新",
    "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
-  },
-  {
-   "id": "magpie-gpt-verify-20261119",
-   "title": "全员群 GPT 额度恢复后验证真回复",
-   "cadence": "runonce",
-   "per_day": 0,
    "high_freq": false
   },
   {
@@ -462,6 +463,7 @@
   "board_data_sync",
   "clarify_scope_before_acting",
   "confidence_calibration",
+  "conversation_mainline_discipline",
   "defect_discovery",
   "delivery_gate",
   "flyai",
@@ -506,8 +508,8 @@
  "system_files": [
   {
    "name": "AGENTS.md",
-   "bytes": 17575,
-   "mtime": "2026-11-18"
+   "bytes": 18489,
+   "mtime": "2026-11-19"
   },
   {
    "name": "SOUL.md",
@@ -526,7 +528,7 @@
   },
   {
    "name": "MEMORY.md",
-   "bytes": 21402,
+   "bytes": 20719,
    "mtime": "2026-11-19"
   },
   {
@@ -536,9 +538,9 @@
   }
  ],
  "memory": {
-  "memory_md_lines": 116,
-  "memory_files": 131,
-  "people_files": 64
+  "memory_md_lines": 118,
+  "memory_files": 134,
+  "people_files": 65
  },
  "goals_dirs": [
   "2000822-remote-service-domain",
@@ -571,6 +573,7 @@
   "lancer-holylance",
   "magpie",
   "meituan-takeout-login-access",
+  "mimo",
   "muse",
   "muse-2",
   "muse-24",
@@ -578,6 +581,7 @@
   "muse-ai",
   "muse-early-access-program-application-wonder-model-testing",
   "muse-scriptable-gist",
+  "n1",
   "parallel-mcp",
   "recent-design",
   "shelved-and-unfinished-overview",
@@ -613,7 +617,6 @@
    "AV 管线心跳播报（结算后停）",
    "看板同步事件调度（变化后自动触发受影响看板）",
    "六六云二手市场监控（性价比／移动／IP干净）",
-   "固定出口巡检（西雅图 VPS）",
    "独角鲸云套餐监控（性价比／移动高速／IP-AI）",
    "HGhub Web 服务自愈巡检",
    "邀请额度变化提醒",
