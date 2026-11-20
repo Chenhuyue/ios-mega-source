@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-19 09:24",
+ "build": "2026-11-20 09:25",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-19",
+   "title": "在峡湾中大快朵颐",
+   "copyright": "正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-19_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-19_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-19_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-19_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-18",
    "title": "思想在此成形",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-12_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-12_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-11",
-   "title": "没有建筑师的建筑杰作",
-   "copyright": "北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-11_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-11_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-11_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-11_1080x1920.jpg"
     ]
    }
   }
