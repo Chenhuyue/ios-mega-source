@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "spaces": [
   {
    "name": "VPS 总台",
@@ -241,6 +241,15 @@
    "cat": "日常总台",
    "fav": false,
    "added": "2026-11-20"
+  },
+  {
+   "name": "首页改版样张",
+   "slug": "shou-ye-gai-ban-yang-zhang",
+   "color": "#FBBF24",
+   "mark": "首页",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-21"
   }
  ]
 }
