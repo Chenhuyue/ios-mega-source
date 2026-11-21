@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-20 01:24",
+ "generated_at": "2026-11-21 01:24",
  "counts": {
-  "spaces": 30,
-  "sidebar": 9,
+  "spaces": 31,
+  "sidebar": 10,
   "skills_custom": 47,
   "crons": 42,
   "crons_high_freq": 10,
@@ -11,449 +11,454 @@
  "spaces": [
   {
    "name": "3D 办公室",
-   "slug": "3d-ban-gong-shi",
-   "placement": "library"
+   "placement": "library",
+   "slug": "3d-ban-gong-shi"
   },
   {
    "name": "API 与 AI 管理",
-   "slug": "api-yu-ai-guan-li",
-   "placement": "library"
+   "placement": "library",
+   "slug": "api-yu-ai-guan-li"
   },
   {
    "name": "Apple TV 二手市场深度调查与购买决策",
-   "slug": "apple-tv",
-   "placement": "library"
+   "placement": "library",
+   "slug": "apple-tv"
   },
   {
    "name": "AV 个性化推荐",
-   "slug": "av-ge-xing-hua-tui-jian",
-   "placement": "library"
+   "placement": "library",
+   "slug": "av-ge-xing-hua-tui-jian"
   },
   {
    "name": "Clash 看板",
-   "slug": "clash-kan-ban",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "clash-kan-ban"
   },
   {
    "name": "薅羊毛",
-   "slug": "dian-zi-chan-pin-hao-yang-mao",
-   "placement": "library"
+   "placement": "library",
+   "slug": "dian-zi-chan-pin-hao-yang-mao"
   },
   {
    "name": "多AI群聊空间",
-   "slug": "duo-aiqun-liao-kong-jian",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "duo-aiqun-liao-kong-jian"
   },
   {
    "name": "搁置与未完成总览",
-   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan",
-   "placement": "library"
+   "placement": "library",
+   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan"
   },
   {
    "name": "云GPU租用性价比调研",
-   "slug": "gpu",
-   "placement": "library"
+   "placement": "library",
+   "slug": "gpu"
   },
   {
    "name": "Grok Bot 还原",
-   "slug": "grok-bot-huan-yuan",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "grok-bot-huan-yuan"
   },
   {
    "name": "HGhub Web 看板",
-   "slug": "hghub-web-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "hghub-web-kan-ban"
   },
   {
    "name": "iOS 签名工具箱",
-   "slug": "ios-qian-ming-gong-ju-xiang",
-   "placement": "library"
+   "placement": "library",
+   "slug": "ios-qian-ming-gong-ju-xiang"
   },
   {
    "name": "捡垃圾情报站",
-   "slug": "jian-la-ji-qing-bao-zhan",
-   "placement": "library"
+   "placement": "library",
+   "slug": "jian-la-ji-qing-bao-zhan"
   },
   {
    "name": "空间启动器",
-   "slug": "kong-jian-qi-dong-qi",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "kong-jian-qi-dong-qi"
   },
   {
    "name": "Muse 宠物房",
-   "slug": "muse-chong-wu-fang",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "muse-chong-wu-fang"
   },
   {
    "name": "Recent 案例拆解看板",
-   "slug": "recent-an-li-chai-jie-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "recent-an-li-chai-jie-kan-ban"
   },
   {
    "name": "网名雷达",
-   "slug": "sherlock-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "sherlock-kan-ban"
+  },
+  {
+   "name": "首页改版样张",
+   "placement": "sidebar",
+   "slug": "shou-ye-gai-ban-yang-zhang"
   },
   {
    "name": "四川话发音与谐音换调研究",
-   "slug": "si-chuan-hua-fa-yin-yu-xie-yin-huan-diao-yan-jiu",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "si-chuan-hua-fa-yin-yu-xie-yin-huan-diao-yan-jiu"
   },
   {
    "name": "Skills 管理器",
-   "slug": "skills-guan-li-qi",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "skills-guan-li-qi"
   },
   {
    "name": "Telegram 管理看板",
-   "slug": "telegram-guan-li-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "telegram-guan-li-kan-ban"
   },
   {
    "name": "图片提示词库",
-   "slug": "tu-pian-ti-shi-ci-ku",
-   "placement": "library"
+   "placement": "library",
+   "slug": "tu-pian-ti-shi-ci-ku"
   },
   {
    "name": "VPS 监控看板",
-   "slug": "vps-jian-kong-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "vps-jian-kong-kan-ban"
   },
   {
    "name": "VPS 总台",
-   "slug": "vps-zi-chan-guan-li",
-   "placement": "library"
+   "placement": "library",
+   "slug": "vps-zi-chan-guan-li"
   },
   {
    "name": "无限画布",
-   "slug": "wu-xian-hua-bu",
-   "placement": "library"
+   "placement": "library",
+   "slug": "wu-xian-hua-bu"
   },
   {
    "name": "闲鱼蹲货看板",
-   "slug": "xian-yu-dun-huo-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "xian-yu-dun-huo-kan-ban"
   },
   {
    "name": "星核真3D小样",
-   "slug": "xing-he-zhen-3dxiao-yang",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "xing-he-zhen-3dxiao-yang"
   },
   {
    "name": "预告标记对照样张",
-   "slug": "yu-gao-biao-ji-dui-zhao-yang-zhang",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "yu-gao-biao-ji-duo-zhao-yang-zhang"
   },
   {
    "name": "云电脑出图台",
-   "slug": "yun-dian-nao-chu-tu-tai",
-   "placement": "library"
+   "placement": "library",
+   "slug": "yun-dian-nao-chu-tu-tai"
   },
   {
    "name": "找源技术调研",
-   "slug": "zhao-yuan-ji-shu-diao-yan",
-   "placement": "library"
+   "placement": "library",
+   "slug": "zhao-yuan-ji-shu-diao-yan"
   },
   {
    "name": "自慰记录看板",
-   "slug": "zi-wei-ji-lu-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "zi-wei-ji-lu-kan-ban"
   }
  ],
  "crons": [
   {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "akile-expiry-remind-early",
-   "title": "Akile Standard 到期提醒（提前3天）",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "Akile Standard 到期提醒（提前3天）"
   },
   {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "akile-expiry-remind-final",
-   "title": "Akile Standard 到期提醒（到期前一天）",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "Akile Standard 到期提醒（到期前一天）"
   },
   {
+   "cadence": "weekly",
+   "high_freq": false,
    "id": "api-ai-weekly-refresh",
-   "title": "API与AI管理每周刷新",
-   "cadence": "weekly",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "API与AI管理每周刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "av-daily-new-films-report",
-   "title": "AV面板每日上新汇报",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "AV面板每日上新汇报"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "av-pipeline-heartbeat",
-   "title": "AV 管线心跳播报（结算后停）",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "AV 管线心跳播报（结算后停）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "av-reco-daily-refresh",
-   "title": "AV推荐每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "AV推荐每日刷新"
   },
   {
+   "cadence": "weekly",
+   "high_freq": false,
    "id": "av-reco-weekly-deep",
-   "title": "AV推荐每周深挖",
-   "cadence": "weekly",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "AV推荐每周深挖"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "board-sync-event-dispatch",
-   "title": "看板同步事件调度（变化后自动触发受影响看板）",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "看板同步事件调度（变化后自动触发受影响看板）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "chat-title-daily-tidy",
-   "title": "对话标题每日整理",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "对话标题每日智能整理"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "clouds666-market-monitor",
-   "title": "六六云二手市场监控（性价比／移动／IP干净）",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "六六云二手市场监控（性价比／移动／IP干净）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "deals-digest-morning",
-   "title": "国内优惠早间汇总",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "国内优惠早间汇总"
   },
   {
+   "cadence": "1h",
+   "high_freq": false,
    "id": "deals-hourly-scan",
-   "title": "国内优惠汇聚巡检（每小时）",
-   "cadence": "1h",
    "per_day": 24,
-   "high_freq": false
+   "title": "国内优惠汇聚巡检（每小时）"
   },
   {
+   "cadence": "2h",
+   "high_freq": false,
    "id": "dianzi-deals-daily-refresh",
-   "title": "电子产品好价刷新",
-   "cadence": "2h",
    "per_day": 12,
-   "high_freq": false
+   "title": "电子产品好价刷新"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "fuckip-plan-monitor",
-   "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）"
   },
   {
+   "cadence": "2h",
+   "high_freq": false,
    "id": "gezhi-ledger-daily-refresh",
-   "title": "搁置总览台账刷新",
-   "cadence": "2h",
    "per_day": 12,
-   "high_freq": false
+   "title": "搁置总览台账刷新"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "hghub-web-watchdog",
-   "title": "HGhub Web 服务自愈巡检",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "HGhub Web 服务自愈巡检"
   },
   {
+   "cadence": "runonce",
+   "high_freq": false,
+   "id": "hk-cmin2-expiry-remind",
+   "per_day": 0,
+   "title": "香港CMIN2 到期提醒（提前2天）"
+  },
+  {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "huawei-growth-center-recheck",
-   "title": "华为云成长中心新平台复查",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "华为云成长中心新平台复查"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "invite-quota-change-alert",
-   "title": "邀请额度变化提醒",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "邀请额度变化提醒"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "ios-signing-sources-daily-probe",
-   "title": "iOS软件源每日探活",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "iOS软件源每日探活"
   },
   {
+   "cadence": "weekly",
+   "high_freq": false,
    "id": "ios-signing-sources-weekly-recheck",
-   "title": "iOS软件源每周复检",
-   "cadence": "weekly",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "iOS软件源每周复检"
   },
   {
+   "cadence": "2h",
+   "high_freq": false,
    "id": "jianlaji-intel-daily-refresh",
-   "title": "捡垃圾情报站刷新",
-   "cadence": "2h",
    "per_day": 12,
-   "high_freq": false
+   "title": "捡垃圾情报站刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "launcher-audit-daily-refresh",
-   "title": "空间启动器自查数据每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "空间启动器自查数据每日刷新"
   },
   {
-   "id": "muse-usage-gist-push",
-   "title": "Muse 用量 Gist 推送（每15分钟）",
    "cadence": "15m",
+   "high_freq": true,
+   "id": "muse-usage-gist-push",
    "per_day": 96,
-   "high_freq": true
+   "title": "Muse 用量 Gist 推送（每15分钟）"
   },
   {
-   "id": "musepool-boost-hourly",
-   "title": "码池每小时加速",
    "cadence": "1h",
+   "high_freq": false,
+   "id": "musepool-boost-hourly",
    "per_day": 24,
-   "high_freq": false
+   "title": "码池每小时加速"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "office-daily-refresh",
-   "title": "3D办公室每日同步",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "3D办公室每日同步"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "promptlib-daily-refresh",
-   "title": "图片提示词库每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "图片提示词库每日刷新"
   },
   {
-   "id": "r18-library-weekly-refresh",
-   "title": "r18 本地库每周更新",
    "cadence": "weekly",
+   "high_freq": false,
+   "id": "r18-library-weekly-refresh",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "r18 本地库每周更新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "radar-daily-picks",
-   "title": "资源雷达每日精选筛分",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "资源雷达每日精选筛分"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "recent-cases-daily-refresh",
-   "title": "Recent案例库每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "Recent案例库每日刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "revival-backup-daily",
-   "title": "复活包每日备份到 Google Drive",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "复活包每日备份到 Google Drive"
   },
   {
-   "id": "seattle-expiry-remind-early",
-   "title": "西雅图年费鸡到期提醒（提前3天）",
    "cadence": "runonce",
-   "per_day": 0,
-   "high_freq": false
-  },
-  {
+   "high_freq": false,
    "id": "seattle-expiry-remind-final",
-   "title": "西雅图年费鸡到期提醒（到期前一天）",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "西雅图年费鸡到期提醒（到期前一天）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "sherlock-kan-ban-daily-status",
-   "title": "网名雷达每日状态",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "网名雷达每日状态"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "skills-manager-daily-refresh",
-   "title": "Skills 管理器每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "Skills 管理器每日刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "telegram-daily-checkin",
-   "title": "电报机器人每日签到",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "电报机器人每日签到"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "telegram-kan-ban-refresh-daily",
-   "title": "Telegram看板每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "Telegram看板每日刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "vps-assets-expiry-watch",
-   "title": "VPS 资产到期提醒",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "VPS 资产到期提醒"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "vps-assets-live-sync",
-   "title": "VPS资产实时同步",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "VPS资产实时同步"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "vps-candidates-sync-30m",
-   "title": "VPS候选套餐同步",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "VPS候选套餐同步"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "xianyu-hat-monitor",
-   "title": "闲鱼侧绣礼帽监控（低于120）",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "闲鱼侧绣礼帽监控（低于120）"
   },
   {
-   "id": "xianyu-thinksmart-monitor",
-   "title": "闲鱼 ThinkSmart View 监控（个人闲置·150左右）",
    "cadence": "2h",
+   "high_freq": false,
+   "id": "xianyu-thinksmart-monitor",
    "per_day": 12,
-   "high_freq": false
+   "title": "闲鱼 ThinkSmart View 监控（个人闲置·150左右）"
   },
   {
-   "id": "yunamo-loc-cc-dec16-remind",
-   "title": "yunamo 免费 .loc.cc 域名领取提醒（12月16号）",
    "cadence": "runonce",
+   "high_freq": false,
+   "id": "yunamo-loc-cc-dec16-remind",
    "per_day": 0,
-   "high_freq": false
+   "title": "yunamo 免费 .loc.cc 域名领取提醒（12月16号）"
   }
  ],
  "skills_custom": [
@@ -528,8 +533,8 @@
   },
   {
    "name": "MEMORY.md",
-   "bytes": 20719,
-   "mtime": "2026-11-19"
+   "bytes": 20294,
+   "mtime": "2026-11-20"
   },
   {
    "name": "TOOLS.md",
@@ -538,9 +543,9 @@
   }
  ],
  "memory": {
-  "memory_md_lines": 118,
-  "memory_files": 134,
-  "people_files": 65
+  "memory_md_lines": 109,
+  "memory_files": 138,
+  "people_files": 67
  },
  "goals_dirs": [
   "2000822-remote-service-domain",
