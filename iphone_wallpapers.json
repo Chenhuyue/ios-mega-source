@@ -2,15 +2,65 @@
   "source": "iphone-stock",
   "note": "Apple 官方 iOS 原装壁纸，存档来源 SniperGER/iOS-Wallpapers（GitHub），HEIC 原图转 JPG 自存",
   "items": [
-    {"slug": "ios17-dark", "name": "iOS 17 深色", "file": "iwp/ios17-dark.jpg"},
-    {"slug": "ios17-titanium", "name": "钛金属原色", "file": "iwp/ios17-titanium.jpg"},
-    {"slug": "ios17-sea-glass-pink", "name": "海玻璃粉", "file": "iwp/ios17-sea-glass-pink.jpg"},
-    {"slug": "ios16-clownfish", "name": "小丑鱼", "file": "iwp/ios16-clownfish.jpg"},
-    {"slug": "ios16-deep-purple", "name": "深紫 · 14 Pro", "file": "iwp/ios16-deep-purple.jpg"},
-    {"slug": "ios16-purple", "name": "紫气泡", "file": "iwp/ios16-purple.jpg"},
-    {"slug": "ios15-beams-blue", "name": "蓝光束", "file": "iwp/ios15-beams-blue.jpg"},
-    {"slug": "ios13-dark", "name": "iOS 13 深色", "file": "iwp/ios13-dark.jpg"},
-    {"slug": "ios11-earth", "name": "地球 · iPhone X", "file": "iwp/ios11-earth.jpg"},
-    {"slug": "ios11-waves", "name": "海浪 · iPhone X", "file": "iwp/ios11-waves.jpg"}
+    {
+      "slug": "ios27-dark",
+      "name": "iOS 27 深色",
+      "file": "iwp/ios27-dark.jpg"
+    },
+    {
+      "slug": "ios27-light",
+      "name": "iOS 27 浅色",
+      "file": "iwp/ios27-light.jpg"
+    },
+    {
+      "slug": "ios17-dark",
+      "name": "iOS 17 深色",
+      "file": "iwp/ios17-dark.jpg"
+    },
+    {
+      "slug": "ios17-titanium",
+      "name": "钛金属原色",
+      "file": "iwp/ios17-titanium.jpg"
+    },
+    {
+      "slug": "ios17-sea-glass-pink",
+      "name": "海玻璃粉",
+      "file": "iwp/ios17-sea-glass-pink.jpg"
+    },
+    {
+      "slug": "ios16-clownfish",
+      "name": "小丑鱼",
+      "file": "iwp/ios16-clownfish.jpg"
+    },
+    {
+      "slug": "ios16-deep-purple",
+      "name": "深紫 · 14 Pro",
+      "file": "iwp/ios16-deep-purple.jpg"
+    },
+    {
+      "slug": "ios16-purple",
+      "name": "紫气泡",
+      "file": "iwp/ios16-purple.jpg"
+    },
+    {
+      "slug": "ios15-beams-blue",
+      "name": "蓝光束",
+      "file": "iwp/ios15-beams-blue.jpg"
+    },
+    {
+      "slug": "ios13-dark",
+      "name": "iOS 13 深色",
+      "file": "iwp/ios13-dark.jpg"
+    },
+    {
+      "slug": "ios11-earth",
+      "name": "地球 · iPhone X",
+      "file": "iwp/ios11-earth.jpg"
+    },
+    {
+      "slug": "ios11-waves",
+      "name": "海浪 · iPhone X",
+      "file": "iwp/ios11-waves.jpg"
+    }
   ]
 }
