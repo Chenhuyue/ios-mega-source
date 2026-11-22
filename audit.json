@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-21 01:24",
+ "generated_at": "2026-11-22 01:21",
  "counts": {
-  "spaces": 31,
-  "sidebar": 10,
+  "spaces": 32,
+  "sidebar": 11,
   "skills_custom": 47,
   "crons": 42,
   "crons_high_freq": 10,
-  "goals_dirs": 55
+  "goals_dirs": 56
  },
  "spaces": [
   {
@@ -147,7 +147,12 @@
   {
    "name": "预告标记对照样张",
    "placement": "sidebar",
-   "slug": "yu-gao-biao-ji-duo-zhao-yang-zhang"
+   "slug": "yu-gao-biao-ji-dui-zhao-yang-zhang"
+  },
+  {
+   "name": "预告屏蔽根因调研",
+   "placement": "sidebar",
+   "slug": "yu-gao-ping-bi-gen-yin-diao-yan"
   },
   {
    "name": "云电脑出图台",
@@ -167,298 +172,298 @@
  ],
  "crons": [
   {
-   "cadence": "runonce",
-   "high_freq": false,
    "id": "akile-expiry-remind-early",
+   "title": "Akile Standard 到期提醒（提前3天）",
+   "cadence": "runonce",
    "per_day": 0,
-   "title": "Akile Standard 到期提醒（提前3天）"
+   "high_freq": false
   },
   {
-   "cadence": "runonce",
-   "high_freq": false,
    "id": "akile-expiry-remind-final",
+   "title": "Akile Standard 到期提醒（到期前一天）",
+   "cadence": "runonce",
    "per_day": 0,
-   "title": "Akile Standard 到期提醒（到期前一天）"
+   "high_freq": false
   },
   {
-   "cadence": "weekly",
-   "high_freq": false,
    "id": "api-ai-weekly-refresh",
+   "title": "API与AI管理每周刷新",
+   "cadence": "weekly",
    "per_day": 0.14,
-   "title": "API与AI管理每周刷新"
+   "high_freq": false
   },
   {
-   "cadence": "daily",
-   "high_freq": false,
    "id": "av-daily-new-films-report",
+   "title": "AV面板每日上新汇报",
+   "cadence": "daily",
    "per_day": 1,
-   "title": "AV面板每日上新汇报"
+   "high_freq": false
   },
   {
-   "cadence": "30m",
-   "high_freq": true,
    "id": "av-pipeline-heartbeat",
+   "title": "AV 管线心跳播报（结算后停）",
+   "cadence": "30m",
    "per_day": 48,
-   "title": "AV 管线心跳播报（结算后停）"
+   "high_freq": true
   },
   {
-   "cadence": "daily",
-   "high_freq": false,
    "id": "av-reco-daily-refresh",
+   "title": "AV推荐每日刷新",
+   "cadence": "daily",
    "per_day": 1,
-   "title": "AV推荐每日刷新"
+   "high_freq": false
   },
   {
-   "cadence": "weekly",
-   "high_freq": false,
    "id": "av-reco-weekly-deep",
+   "title": "AV推荐每周深挖",
+   "cadence": "weekly",
    "per_day": 0.14,
-   "title": "AV推荐每周深挖"
+   "high_freq": false
   },
   {
-   "cadence": "15m",
-   "high_freq": true,
    "id": "board-sync-event-dispatch",
+   "title": "看板同步事件调度（变化后自动触发受影响看板）",
+   "cadence": "15m",
    "per_day": 96,
-   "title": "看板同步事件调度（变化后自动触发受影响看板）"
+   "high_freq": true
   },
   {
-   "cadence": "daily",
-   "high_freq": false,
    "id": "chat-title-daily-tidy",
+   "title": "对话标题每日智能整理",
+   "cadence": "daily",
    "per_day": 1,
-   "title": "对话标题每日智能整理"
+   "high_freq": false
   },
   {
-   "cadence": "15m",
-   "high_freq": true,
    "id": "clouds666-market-monitor",
+   "title": "六六云二手市场监控（性价比／移动／IP干净）",
+   "cadence": "15m",
    "per_day": 96,
-   "title": "六六云二手市场监控（性价比／移动／IP干净）"
+   "high_freq": true
   },
   {
-   "cadence": "daily",
-   "high_freq": false,
    "id": "deals-digest-morning",
+   "title": "国内优惠早间汇总",
+   "cadence": "daily",
    "per_day": 1,
-   "title": "国内优惠早间汇总"
+   "high_freq": false
   },
   {
-   "cadence": "1h",
-   "high_freq": false,
    "id": "deals-hourly-scan",
-   "per_day": 24,
-   "title": "国内优惠汇聚巡检（每小时）"
-  },
-  {
-   "cadence": "2h",
-   "high_freq": false,
-   "id": "dianzi-deals-daily-refresh",
-   "per_day": 12,
-   "title": "电子产品好价刷新"
-  },
-  {
-   "cadence": "15m",
-   "high_freq": true,
-   "id": "fuckip-plan-monitor",
-   "per_day": 96,
-   "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）"
-  },
-  {
-   "cadence": "2h",
-   "high_freq": false,
-   "id": "gezhi-ledger-daily-refresh",
-   "per_day": 12,
-   "title": "搁置总览台账刷新"
-  },
-  {
-   "cadence": "30m",
-   "high_freq": true,
-   "id": "hghub-web-watchdog",
-   "per_day": 48,
-   "title": "HGhub Web 服务自愈巡检"
-  },
-  {
-   "cadence": "runonce",
-   "high_freq": false,
-   "id": "hk-cmin2-expiry-remind",
-   "per_day": 0,
-   "title": "香港CMIN2 到期提醒（提前2天）"
-  },
-  {
-   "cadence": "runonce",
-   "high_freq": false,
-   "id": "huawei-growth-center-recheck",
-   "per_day": 0,
-   "title": "华为云成长中心新平台复查"
-  },
-  {
-   "cadence": "15m",
-   "high_freq": true,
-   "id": "invite-quota-change-alert",
-   "per_day": 96,
-   "title": "邀请额度变化提醒"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "ios-signing-sources-daily-probe",
-   "per_day": 1,
-   "title": "iOS软件源每日探活"
-  },
-  {
-   "cadence": "weekly",
-   "high_freq": false,
-   "id": "ios-signing-sources-weekly-recheck",
-   "per_day": 0.14,
-   "title": "iOS软件源每周复检"
-  },
-  {
-   "cadence": "2h",
-   "high_freq": false,
-   "id": "jianlaji-intel-daily-refresh",
-   "per_day": 12,
-   "title": "捡垃圾情报站刷新"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "launcher-audit-daily-refresh",
-   "per_day": 1,
-   "title": "空间启动器自查数据每日刷新"
-  },
-  {
-   "cadence": "15m",
-   "high_freq": true,
-   "id": "muse-usage-gist-push",
-   "per_day": 96,
-   "title": "Muse 用量 Gist 推送（每15分钟）"
-  },
-  {
+   "title": "国内优惠汇聚巡检（每小时）",
    "cadence": "1h",
-   "high_freq": false,
-   "id": "musepool-boost-hourly",
    "per_day": 24,
-   "title": "码池每小时加速"
+   "high_freq": false
   },
   {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "office-daily-refresh",
-   "per_day": 1,
-   "title": "3D办公室每日同步"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "promptlib-daily-refresh",
-   "per_day": 1,
-   "title": "图片提示词库每日刷新"
-  },
-  {
-   "cadence": "weekly",
-   "high_freq": false,
-   "id": "r18-library-weekly-refresh",
-   "per_day": 0.14,
-   "title": "r18 本地库每周更新"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "radar-daily-picks",
-   "per_day": 1,
-   "title": "资源雷达每日精选筛分"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "recent-cases-daily-refresh",
-   "per_day": 1,
-   "title": "Recent案例库每日刷新"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "revival-backup-daily",
-   "per_day": 1,
-   "title": "复活包每日备份到 Google Drive"
-  },
-  {
-   "cadence": "runonce",
-   "high_freq": false,
-   "id": "seattle-expiry-remind-final",
-   "per_day": 0,
-   "title": "西雅图年费鸡到期提醒（到期前一天）"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "sherlock-kan-ban-daily-status",
-   "per_day": 1,
-   "title": "网名雷达每日状态"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "skills-manager-daily-refresh",
-   "per_day": 1,
-   "title": "Skills 管理器每日刷新"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "telegram-daily-checkin",
-   "per_day": 1,
-   "title": "电报机器人每日签到"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "telegram-kan-ban-refresh-daily",
-   "per_day": 1,
-   "title": "Telegram看板每日刷新"
-  },
-  {
-   "cadence": "daily",
-   "high_freq": false,
-   "id": "vps-assets-expiry-watch",
-   "per_day": 1,
-   "title": "VPS 资产到期提醒"
-  },
-  {
-   "cadence": "30m",
-   "high_freq": true,
-   "id": "vps-assets-live-sync",
-   "per_day": 48,
-   "title": "VPS资产实时同步"
-  },
-  {
-   "cadence": "30m",
-   "high_freq": true,
-   "id": "vps-candidates-sync-30m",
-   "per_day": 48,
-   "title": "VPS候选套餐同步"
-  },
-  {
-   "cadence": "30m",
-   "high_freq": true,
-   "id": "xianyu-hat-monitor",
-   "per_day": 48,
-   "title": "闲鱼侧绣礼帽监控（低于120）"
-  },
-  {
+   "id": "dianzi-deals-daily-refresh",
+   "title": "电子产品好价刷新",
    "cadence": "2h",
-   "high_freq": false,
-   "id": "xianyu-thinksmart-monitor",
    "per_day": 12,
-   "title": "闲鱼 ThinkSmart View 监控（个人闲置·150左右）"
+   "high_freq": false
   },
   {
+   "id": "fuckip-plan-monitor",
+   "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "gezhi-ledger-daily-refresh",
+   "title": "搁置总览台账刷新",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
+   "id": "hghub-web-watchdog",
+   "title": "HGhub Web 服务自愈巡检",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "hk-cmin2-expiry-remind",
+   "title": "香港CMIN2 到期提醒（提前2天）",
    "cadence": "runonce",
-   "high_freq": false,
-   "id": "yunamo-loc-cc-dec16-remind",
    "per_day": 0,
-   "title": "yunamo 免费 .loc.cc 域名领取提醒（12月16号）"
+   "high_freq": false
+  },
+  {
+   "id": "huawei-growth-center-recheck",
+   "title": "华为云成长中心新平台复查",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "invite-quota-change-alert",
+   "title": "邀请额度变化提醒",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "ios-signing-sources-daily-probe",
+   "title": "iOS软件源每日探活",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "ios-signing-sources-weekly-recheck",
+   "title": "iOS软件源每周复检",
+   "cadence": "weekly",
+   "per_day": 0.14,
+   "high_freq": false
+  },
+  {
+   "id": "jianlaji-intel-daily-refresh",
+   "title": "捡垃圾情报站刷新",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
+   "id": "launcher-audit-daily-refresh",
+   "title": "空间启动器自查数据每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "muse-usage-gist-push",
+   "title": "Muse 用量 Gist 推送（每15分钟）",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
+   "id": "musepool-boost-hourly",
+   "title": "码池每小时加速",
+   "cadence": "1h",
+   "per_day": 24,
+   "high_freq": false
+  },
+  {
+   "id": "office-daily-refresh",
+   "title": "3D办公室每日同步",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "promptlib-daily-refresh",
+   "title": "图片提示词库每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "r18-library-weekly-refresh",
+   "title": "r18 本地库每周更新",
+   "cadence": "weekly",
+   "per_day": 0.14,
+   "high_freq": false
+  },
+  {
+   "id": "radar-daily-picks",
+   "title": "资源雷达每日精选筛分",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "recent-cases-daily-refresh",
+   "title": "Recent案例库每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "revival-backup-daily",
+   "title": "复活包每日备份",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "seattle-expiry-remind-final",
+   "title": "西雅图年费鸡到期提醒（到期前一天）",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
+  },
+  {
+   "id": "sherlock-kan-ban-daily-status",
+   "title": "网名雷达每日状态",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "skills-manager-daily-refresh",
+   "title": "Skills 管理器每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "telegram-daily-checkin",
+   "title": "电报机器人每日签到",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "telegram-kan-ban-refresh-daily",
+   "title": "Telegram看板每日刷新",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "vps-assets-expiry-watch",
+   "title": "VPS 资产到期提醒",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "vps-assets-live-sync",
+   "title": "VPS资产实时同步",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "vps-candidates-sync-30m",
+   "title": "VPS候选套餐同步",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "xianyu-hat-monitor",
+   "title": "闲鱼侧绣礼帽监控（低于120）",
+   "cadence": "30m",
+   "per_day": 48,
+   "high_freq": true
+  },
+  {
+   "id": "xianyu-thinksmart-monitor",
+   "title": "闲鱼 ThinkSmart View 监控（个人闲置·150左右）",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
+   "id": "yunamo-loc-cc-dec16-remind",
+   "title": "yunamo 免费 .loc.cc 域名领取提醒（12月16号）",
+   "cadence": "runonce",
+   "per_day": 0,
+   "high_freq": false
   }
  ],
  "skills_custom": [
@@ -533,8 +538,8 @@
   },
   {
    "name": "MEMORY.md",
-   "bytes": 20294,
-   "mtime": "2026-11-20"
+   "bytes": 19994,
+   "mtime": "2026-11-21"
   },
   {
    "name": "TOOLS.md",
@@ -543,9 +548,9 @@
   }
  ],
  "memory": {
-  "memory_md_lines": 109,
-  "memory_files": 138,
-  "people_files": 67
+  "memory_md_lines": 108,
+  "memory_files": 141,
+  "people_files": 68
  },
  "goals_dirs": [
   "2000822-remote-service-domain",
@@ -598,6 +603,7 @@
   "telegram-api",
   "telegram-bot-check-in-and-cleanup",
   "thinksmart-view",
+  "urnetwork-vps",
   "us-s-vps",
   "vps",
   "vps-2",
