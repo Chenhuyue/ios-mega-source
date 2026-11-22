@@ -13,6 +13,36 @@
       "file": "iwp/ios27-light.jpg"
     },
     {
+      "slug": "ios27-purple",
+      "name": "iOS 27 紫",
+      "file": "iwp/ios27-purple.jpg"
+    },
+    {
+      "slug": "ios27-blue",
+      "name": "iOS 27 蓝",
+      "file": "iwp/ios27-blue.jpg"
+    },
+    {
+      "slug": "ios27-teal",
+      "name": "iOS 27 青",
+      "file": "iwp/ios27-teal.jpg"
+    },
+    {
+      "slug": "ios27-gold",
+      "name": "iOS 27 金",
+      "file": "iwp/ios27-gold.jpg"
+    },
+    {
+      "slug": "ios27-brown",
+      "name": "iOS 27 棕",
+      "file": "iwp/ios27-brown.jpg"
+    },
+    {
+      "slug": "ios27-ink",
+      "name": "iOS 27 墨",
+      "file": "iwp/ios27-ink.jpg"
+    },
+    {
       "slug": "ios17-dark",
       "name": "iOS 17 深色",
       "file": "iwp/ios17-dark.jpg"
