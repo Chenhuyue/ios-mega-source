@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "spaces": [
   {
    "name": "VPS 总台",
@@ -250,6 +250,15 @@
    "cat": "日常总台",
    "fav": false,
    "added": "2026-11-21"
+  },
+  {
+   "name": "预告屏蔽根因调研",
+   "slug": "yu-gao-ping-bi-gen-yin-diao-yan",
+   "color": "#6366F1",
+   "mark": "预告",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-22"
   }
  ]
 }
