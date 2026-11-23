@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-22 09:22",
+ "build": "2026-11-23 09:26",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-22",
+   "title": "自然中的几何之美",
+   "copyright": "蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-22_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-22_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-22_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-22_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-21",
    "title": "海浪间的庇护所",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-15_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-15_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-14",
-   "title": "霜染枝叶",
-   "copyright": "覆霜的红叶杜鹃 (© avoferten/Shutterstock)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-14_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-14_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-14_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-14_1080x1920.jpg"
     ]
    }
   }
