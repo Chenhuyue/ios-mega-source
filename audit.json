@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-22 01:21",
+ "generated_at": "2026-11-23 01:21",
  "counts": {
   "spaces": 32,
   "sidebar": 11,
   "skills_custom": 47,
   "crons": 42,
-  "crons_high_freq": 10,
-  "goals_dirs": 56
+  "crons_high_freq": 11,
+  "goals_dirs": 57
  },
  "spaces": [
   {
@@ -172,298 +172,298 @@
  ],
  "crons": [
   {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "akile-expiry-remind-early",
-   "title": "Akile Standard 到期提醒（提前3天）",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "Akile Standard 到期提醒（提前3天）"
   },
   {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "akile-expiry-remind-final",
-   "title": "Akile Standard 到期提醒（到期前一天）",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "Akile Standard 到期提醒（到期前一天）"
   },
   {
+   "cadence": "weekly",
+   "high_freq": false,
    "id": "api-ai-weekly-refresh",
-   "title": "API与AI管理每周刷新",
-   "cadence": "weekly",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "API与AI管理每周刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "av-daily-new-films-report",
-   "title": "AV面板每日上新汇报",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "AV面板每日上新汇报"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "av-pipeline-heartbeat",
-   "title": "AV 管线心跳播报（结算后停）",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "AV 管线心跳播报（结算后停）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "av-reco-daily-refresh",
-   "title": "AV推荐每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "AV推荐每日刷新"
   },
   {
+   "cadence": "weekly",
+   "high_freq": false,
    "id": "av-reco-weekly-deep",
-   "title": "AV推荐每周深挖",
-   "cadence": "weekly",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "AV推荐每周深挖"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "board-sync-event-dispatch",
-   "title": "看板同步事件调度（变化后自动触发受影响看板）",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "看板同步事件调度（变化后自动触发受影响看板）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "chat-title-daily-tidy",
-   "title": "对话标题每日智能整理",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "对话标题每日智能整理"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "clouds666-market-monitor",
-   "title": "六六云二手市场监控（性价比／移动／IP干净）",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "六六云二手市场监控（性价比／移动／IP干净）"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "deals-digest-morning",
-   "title": "国内优惠早间汇总",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "国内优惠早间汇总"
   },
   {
+   "cadence": "1h",
+   "high_freq": false,
    "id": "deals-hourly-scan",
-   "title": "国内优惠汇聚巡检（每小时）",
-   "cadence": "1h",
    "per_day": 24,
-   "high_freq": false
+   "title": "国内优惠汇聚巡检（每小时）"
   },
   {
+   "cadence": "2h",
+   "high_freq": false,
    "id": "dianzi-deals-daily-refresh",
-   "title": "电子产品好价刷新",
-   "cadence": "2h",
    "per_day": 12,
-   "high_freq": false
+   "title": "电子产品好价刷新"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "fuckip-plan-monitor",
-   "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "独角鲸云套餐监控（性价比／移动高速／IP-AI）"
   },
   {
+   "cadence": "2h",
+   "high_freq": false,
    "id": "gezhi-ledger-daily-refresh",
-   "title": "搁置总览台账刷新",
-   "cadence": "2h",
    "per_day": 12,
-   "high_freq": false
+   "title": "搁置总览台账刷新"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "hghub-web-watchdog",
-   "title": "HGhub Web 服务自愈巡检",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "HGhub Web 服务自愈巡检"
   },
   {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "hk-cmin2-expiry-remind",
-   "title": "香港CMIN2 到期提醒（提前2天）",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "香港CMIN2 到期提醒（提前2天）"
   },
   {
+   "cadence": "runonce",
+   "high_freq": false,
    "id": "huawei-growth-center-recheck",
-   "title": "华为云成长中心新平台复查",
-   "cadence": "runonce",
    "per_day": 0,
-   "high_freq": false
+   "title": "华为云成长中心新平台复查"
   },
   {
+   "cadence": "15m",
+   "high_freq": true,
    "id": "invite-quota-change-alert",
-   "title": "邀请额度变化提醒",
-   "cadence": "15m",
    "per_day": 96,
-   "high_freq": true
+   "title": "邀请额度变化提醒"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "ios-signing-sources-daily-probe",
-   "title": "iOS软件源每日探活",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "iOS软件源每日探活"
   },
   {
+   "cadence": "weekly",
+   "high_freq": false,
    "id": "ios-signing-sources-weekly-recheck",
-   "title": "iOS软件源每周复检",
-   "cadence": "weekly",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "iOS软件源每周复检"
   },
   {
+   "cadence": "2h",
+   "high_freq": false,
    "id": "jianlaji-intel-daily-refresh",
-   "title": "捡垃圾情报站刷新",
-   "cadence": "2h",
    "per_day": 12,
-   "high_freq": false
+   "title": "捡垃圾情报站刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "launcher-audit-daily-refresh",
-   "title": "空间启动器自查数据每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "空间启动器自查数据每日刷新"
   },
   {
-   "id": "muse-usage-gist-push",
-   "title": "Muse 用量 Gist 推送（每15分钟）",
    "cadence": "15m",
+   "high_freq": true,
+   "id": "muse-usage-gist-push",
    "per_day": 96,
-   "high_freq": true
+   "title": "Muse 用量 Gist 推送（每15分钟）"
   },
   {
-   "id": "musepool-boost-hourly",
-   "title": "码池每小时加速",
    "cadence": "1h",
+   "high_freq": false,
+   "id": "musepool-boost-hourly",
    "per_day": 24,
-   "high_freq": false
+   "title": "码池每小时加速"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "office-daily-refresh",
-   "title": "3D办公室每日同步",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "3D办公室每日同步"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "promptlib-daily-refresh",
-   "title": "图片提示词库每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "图片提示词库每日刷新"
   },
   {
-   "id": "r18-library-weekly-refresh",
-   "title": "r18 本地库每周更新",
    "cadence": "weekly",
+   "high_freq": false,
+   "id": "r18-library-weekly-refresh",
    "per_day": 0.14,
-   "high_freq": false
+   "title": "r18 本地库每周更新"
   },
   {
+   "cadence": "10m",
+   "high_freq": true,
+   "id": "racknerd-round-watch",
+   "per_day": 144,
+   "title": "RackNerd 黑五免费 VPS 新轮次盯哨"
+  },
+  {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "radar-daily-picks",
-   "title": "资源雷达每日精选筛分",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "资源雷达每日精选筛分"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "recent-cases-daily-refresh",
-   "title": "Recent案例库每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "Recent案例库每日刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "revival-backup-daily",
-   "title": "复活包每日备份",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "复活包每日备份"
   },
   {
-   "id": "seattle-expiry-remind-final",
-   "title": "西雅图年费鸡到期提醒（到期前一天）",
-   "cadence": "runonce",
-   "per_day": 0,
-   "high_freq": false
-  },
-  {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "sherlock-kan-ban-daily-status",
-   "title": "网名雷达每日状态",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "网名雷达每日状态"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "skills-manager-daily-refresh",
-   "title": "Skills 管理器每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "Skills 管理器每日刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "telegram-daily-checkin",
-   "title": "电报机器人每日签到",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "电报机器人每日签到"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "telegram-kan-ban-refresh-daily",
-   "title": "Telegram看板每日刷新",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "Telegram 看板每日刷新"
   },
   {
+   "cadence": "daily",
+   "high_freq": false,
    "id": "vps-assets-expiry-watch",
-   "title": "VPS 资产到期提醒",
-   "cadence": "daily",
    "per_day": 1,
-   "high_freq": false
+   "title": "VPS 资产到期提醒"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "vps-assets-live-sync",
-   "title": "VPS资产实时同步",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "VPS 资产实时同步"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "vps-candidates-sync-30m",
-   "title": "VPS候选套餐同步",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "VPS 候选套餐同步"
   },
   {
+   "cadence": "30m",
+   "high_freq": true,
    "id": "xianyu-hat-monitor",
-   "title": "闲鱼侧绣礼帽监控（低于120）",
-   "cadence": "30m",
    "per_day": 48,
-   "high_freq": true
+   "title": "闲鱼侧绣礼帽监控（低于120）"
   },
   {
-   "id": "xianyu-thinksmart-monitor",
-   "title": "闲鱼 ThinkSmart View 监控（个人闲置·150左右）",
    "cadence": "2h",
+   "high_freq": false,
+   "id": "xianyu-thinksmart-monitor",
    "per_day": 12,
-   "high_freq": false
+   "title": "闲鱼 ThinkSmart View 监控（个人闲置·150左右）"
   },
   {
-   "id": "yunamo-loc-cc-dec16-remind",
-   "title": "yunamo 免费 .loc.cc 域名领取提醒（12月16号）",
    "cadence": "runonce",
+   "high_freq": false,
+   "id": "yunamo-loc-cc-dec16-remind",
    "per_day": 0,
-   "high_freq": false
+   "title": "yunamo 免费 .loc.cc 域名领取提醒（12月16号）"
   }
  ],
  "skills_custom": [
@@ -538,8 +538,8 @@
   },
   {
    "name": "MEMORY.md",
-   "bytes": 19994,
-   "mtime": "2026-11-21"
+   "bytes": 19973,
+   "mtime": "2026-11-23"
   },
   {
    "name": "TOOLS.md",
@@ -549,7 +549,7 @@
  ],
  "memory": {
   "memory_md_lines": 108,
-  "memory_files": 141,
+  "memory_files": 143,
   "people_files": 68
  },
  "goals_dirs": [
@@ -593,6 +593,7 @@
   "muse-scriptable-gist",
   "n1",
   "parallel-mcp",
+  "racknerd-vps",
   "recent-design",
   "shelved-and-unfinished-overview",
   "sherlock",
@@ -632,8 +633,9 @@
    "HGhub Web 服务自愈巡检",
    "邀请额度变化提醒",
    "Muse 用量 Gist 推送（每15分钟）",
-   "VPS资产实时同步",
-   "VPS候选套餐同步",
+   "RackNerd 黑五免费 VPS 新轮次盯哨",
+   "VPS 资产实时同步",
+   "VPS 候选套餐同步",
    "闲鱼侧绣礼帽监控（低于120）"
   ],
   "note": "高频=每天跑48次以上（30分钟内一轮）"
