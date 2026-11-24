@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-23 09:26",
+ "build": "2026-11-24 09:28",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-23",
+   "title": "秋日的保护色",
+   "copyright": "红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-23_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-23_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-23_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-23_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-22",
    "title": "自然中的几何之美",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-15",
-   "title": "历经岁月，屹立不倒",
-   "copyright": "美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-15_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-15_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-15_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-15_1080x1920.jpg"
     ]
    }
   }
