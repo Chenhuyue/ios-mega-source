@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-24 09:28",
+ "build": "2026-11-25 09:25",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-24",
+   "title": "美国西南部的一场雪",
+   "copyright": "日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-24_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-24_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-24_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-24_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-23",
    "title": "秋日的保护色",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-17_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-17_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-16",
-   "title": "走进广阔的大自然",
-   "copyright": "雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-16_1080x1920.jpg"
     ]
    }
   }
