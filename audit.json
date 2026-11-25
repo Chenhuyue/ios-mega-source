@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-24 01:25",
+ "generated_at": "2026-11-25 01:23",
  "counts": {
   "spaces": 32,
   "sidebar": 11,
   "skills_custom": 47,
-  "crons": 44,
+  "crons": 43,
   "crons_high_freq": 12,
-  "goals_dirs": 57
+  "goals_dirs": 58
  },
  "spaces": [
   {
@@ -298,13 +298,6 @@
    "title": "自建节点探针（断网提醒）"
   },
   {
-   "cadence": "runonce",
-   "high_freq": false,
-   "id": "huawei-growth-center-recheck",
-   "per_day": 0,
-   "title": "华为云成长中心新平台复查"
-  },
-  {
    "cadence": "15m",
    "high_freq": true,
    "id": "invite-quota-change-alert",
@@ -552,8 +545,8 @@
   },
   {
    "name": "MEMORY.md",
-   "bytes": 19850,
-   "mtime": "2026-11-23"
+   "bytes": 19985,
+   "mtime": "2026-11-25"
   },
   {
    "name": "TOOLS.md",
@@ -563,8 +556,8 @@
  ],
  "memory": {
   "memory_md_lines": 108,
-  "memory_files": 146,
-  "people_files": 69
+  "memory_files": 149,
+  "people_files": 70
  },
  "goals_dirs": [
   "2000822-remote-service-domain",
@@ -606,6 +599,7 @@
   "muse-early-access-program-application-wonder-model-testing",
   "muse-scriptable-gist",
   "n1",
+  "nodaroo",
   "parallel-mcp",
   "racknerd-vps",
   "recent-design",
