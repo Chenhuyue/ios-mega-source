@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-26",
  "badges": {
   "vps-zi-chan-guan-li": {
    "text": "3 台将到期",
    "hot": true
   },
   "skills-guan-li-qi": {
-   "text": "106 个技能",
+   "text": "105 个技能",
    "hot": false
   }
  }
