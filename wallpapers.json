@@ -1,8 +1,28 @@
 {
  "source": "bing",
- "build": "2026-11-25 09:25",
+ "build": "2026-11-26 09:26",
  "days": 8,
  "wallpapers": [
+  {
+   "date": "2026-11-25",
+   "title": "彩虹落下的地方",
+   "copyright": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)",
+   "local": true,
+   "urls": {
+    "landscape": [
+     "https://cn.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg",
+     "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-25_1920x1080.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-25_1920x1080.jpg"
+    ],
+    "portrait": [
+     "https://cn.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1080x1920.jpg",
+     "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1080x1920.jpg",
+     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-25_1080x1920.jpg",
+     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-25_1080x1920.jpg"
+    ]
+   }
+  },
   {
    "date": "2026-11-24",
    "title": "美国西南部的一场雪",
@@ -140,26 +160,6 @@
      "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1080x1920.jpg",
      "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-18_1080x1920.jpg",
      "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-18_1080x1920.jpg"
-    ]
-   }
-  },
-  {
-   "date": "2026-11-17",
-   "title": "从黄昏狩猎到黎明",
-   "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
-   "local": true,
-   "urls": {
-    "landscape": [
-     "https://cn.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg",
-     "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-17_1920x1080.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-17_1920x1080.jpg"
-    ],
-    "portrait": [
-     "https://cn.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1080x1920.jpg",
-     "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1080x1920.jpg",
-     "https://fastly.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-17_1080x1920.jpg",
-     "https://cdn.jsdelivr.net/gh/Chenhuyue/ios-mega-source@main/img/2026-11-17_1080x1920.jpg"
     ]
    }
   }
