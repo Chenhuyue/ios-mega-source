@@ -1,173 +1,183 @@
 {
- "generated_at": "2026-11-27 01:21",
+ "generated_at": "2026-11-28 01:29",
  "counts": {
-  "spaces": 32,
-  "sidebar": 11,
-  "skills_custom": 47,
-  "crons": 47,
-  "crons_high_freq": 14,
-  "goals_dirs": 63
+  "spaces": 34,
+  "sidebar": 7,
+  "skills_custom": 93,
+  "crons": 54,
+  "crons_high_freq": 16,
+  "goals_dirs": 65
  },
  "spaces": [
   {
    "name": "3D 办公室",
-   "slug": "3d-ban-gong-shi",
-   "placement": "library"
+   "placement": "library",
+   "slug": "3d-ban-gong-shi"
   },
   {
    "name": "API 与 AI 管理",
-   "slug": "api-yu-ai-guan-li",
-   "placement": "library"
+   "placement": "library",
+   "slug": "api-yu-ai-guan-li"
   },
   {
    "name": "Apple TV 二手市场深度调查与购买决策",
-   "slug": "apple-tv",
-   "placement": "library"
+   "placement": "library",
+   "slug": "apple-tv"
   },
   {
    "name": "AV 个性化推荐",
-   "slug": "av-ge-xing-hua-tui-jian",
-   "placement": "library"
+   "placement": "library",
+   "slug": "av-ge-xing-hua-tui-jian"
   },
   {
    "name": "Clash 看板",
-   "slug": "clash-kan-ban",
-   "placement": "sidebar"
+   "placement": "library",
+   "slug": "clash-kan-ban"
   },
   {
    "name": "薅羊毛",
-   "slug": "dian-zi-chan-pin-hao-yang-mao",
-   "placement": "library"
+   "placement": "library",
+   "slug": "dian-zi-chan-pin-hao-yang-mao"
   },
   {
    "name": "多AI群聊空间",
-   "slug": "duo-aiqun-liao-kong-jian",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "duo-aiqun-liao-kong-jian"
   },
   {
    "name": "搁置与未完成总览",
-   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan",
-   "placement": "library"
+   "placement": "library",
+   "slug": "ge-zhi-yu-wei-wan-cheng-zong-lan"
   },
   {
    "name": "云GPU租用性价比调研",
-   "slug": "gpu",
-   "placement": "library"
+   "placement": "library",
+   "slug": "gpu"
   },
   {
    "name": "Grok Bot 还原",
-   "slug": "grok-bot-huan-yuan",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "grok-bot-huan-yuan"
   },
   {
    "name": "HGhub Web 看板",
-   "slug": "hghub-web-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "hghub-web-kan-ban"
   },
   {
    "name": "iOS 签名工具箱",
-   "slug": "ios-qian-ming-gong-ju-xiang",
-   "placement": "library"
+   "placement": "library",
+   "slug": "ios-qian-ming-gong-ju-xiang"
+  },
+  {
+   "name": "家底图 · 动态看板",
+   "placement": "sidebar",
+   "slug": "jia-di-tu-dong-tai-kan-ban"
   },
   {
    "name": "捡垃圾情报站",
-   "slug": "jian-la-ji-qing-bao-zhan",
-   "placement": "library"
+   "placement": "library",
+   "slug": "jian-la-ji-qing-bao-zhan"
   },
   {
    "name": "空间启动器",
-   "slug": "kong-jian-qi-dong-qi",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "kong-jian-qi-dong-qi"
+  },
+  {
+   "name": "Muse 办公室",
+   "placement": "library",
+   "slug": "man-you-ban-gong-shi"
   },
   {
    "name": "Muse 宠物房",
-   "slug": "muse-chong-wu-fang",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "muse-chong-wu-fang"
   },
   {
    "name": "Recent 案例拆解看板",
-   "slug": "recent-an-li-chai-jie-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "recent-an-li-chai-jie-kan-ban"
   },
   {
    "name": "网名雷达",
-   "slug": "sherlock-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "sherlock-kan-ban"
   },
   {
    "name": "首页改版样张",
-   "slug": "shou-ye-gai-ban-yang-zhang",
-   "placement": "sidebar"
+   "placement": "library",
+   "slug": "shou-ye-gai-ban-yang-zhang"
   },
   {
    "name": "四川话发音与谐音换调研究",
-   "slug": "si-chuan-hua-fa-yin-yu-xie-yin-huan-diao-yan-jiu",
-   "placement": "sidebar"
+   "placement": "library",
+   "slug": "si-chuan-hua-fa-yin-yu-xie-yin-huan-diao-yan-jiu"
   },
   {
    "name": "Skills 管理器",
-   "slug": "skills-guan-li-qi",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "skills-guan-li-qi"
   },
   {
    "name": "Telegram 管理看板",
-   "slug": "telegram-guan-li-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "telegram-guan-li-kan-ban"
   },
   {
    "name": "图片提示词库",
-   "slug": "tu-pian-ti-shi-ci-ku",
-   "placement": "library"
+   "placement": "library",
+   "slug": "tu-pian-ti-shi-ci-ku"
   },
   {
    "name": "VPS 监控看板",
-   "slug": "vps-jian-kong-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "vps-jian-kong-kan-ban"
   },
   {
    "name": "VPS 总台",
-   "slug": "vps-zi-chan-guan-li",
-   "placement": "library"
+   "placement": "library",
+   "slug": "vps-zi-chan-guan-li"
   },
   {
    "name": "无限画布",
-   "slug": "wu-xian-hua-bu",
-   "placement": "library"
+   "placement": "library",
+   "slug": "wu-xian-hua-bu"
   },
   {
    "name": "闲鱼蹲货看板",
-   "slug": "xian-yu-dun-huo-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "xian-yu-dun-huo-kan-ban"
   },
   {
    "name": "星核真3D小样",
-   "slug": "xing-he-zhen-3dxiao-yang",
-   "placement": "sidebar"
+   "placement": "sidebar",
+   "slug": "xing-he-zhen-3dxiao-yang"
   },
   {
    "name": "预告标记对照样张",
-   "slug": "yu-gao-biao-ji-dui-zhao-yang-zhang",
-   "placement": "sidebar"
+   "placement": "library",
+   "slug": "yu-gao-biao-ji-dui-zhao-yang-zhang"
   },
   {
    "name": "预告屏蔽根因调研",
-   "slug": "yu-gao-ping-bi-gen-yin-diao-yan",
-   "placement": "sidebar"
+   "placement": "library",
+   "slug": "yu-gao-ping-bi-gen-yin-diao-yan"
   },
   {
    "name": "云电脑出图台",
-   "slug": "yun-dian-nao-chu-tu-tai",
-   "placement": "library"
+   "placement": "library",
+   "slug": "yun-dian-nao-chu-tu-tai"
   },
   {
    "name": "找源技术调研",
-   "slug": "zhao-yuan-ji-shu-diao-yan",
-   "placement": "library"
+   "placement": "library",
+   "slug": "zhao-yuan-ji-shu-diao-yan"
   },
   {
    "name": "自慰记录看板",
-   "slug": "zi-wei-ji-lu-kan-ban",
-   "placement": "library"
+   "placement": "library",
+   "slug": "zi-wei-ji-lu-kan-ban"
   }
  ],
  "crons": [
@@ -186,6 +196,13 @@
    "high_freq": false
   },
   {
+   "id": "akile-market-monitor",
+   "title": "Akile 交易市场监控（性价比／移动／IP干净）",
+   "cadence": "2h",
+   "per_day": 12,
+   "high_freq": false
+  },
+  {
    "id": "api-ai-weekly-refresh",
    "title": "API与AI管理每周刷新",
    "cadence": "weekly",
@@ -197,6 +214,27 @@
    "title": "AV面板每日上新汇报",
    "cadence": "daily",
    "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "av-daily-pending-drain",
+   "title": "AV 待判池每日清增量（防积压）",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "av-daily-source-drain",
+   "title": "AV 待补源每日清补（抬能看数）",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "av-github-jav-weekly-watch",
+   "title": "GitHub JAV 项目周扫（挖接口／学逻辑）",
+   "cadence": "weekly",
+   "per_day": 0.14,
    "high_freq": false
   },
   {
@@ -261,6 +299,13 @@
    "cadence": "2h",
    "per_day": 12,
    "high_freq": false
+  },
+  {
+   "id": "fixed-egress-mihomo-watchdog",
+   "title": "固定出口看门狗（mihomo 自愈）",
+   "cadence": "5m",
+   "per_day": 288,
+   "high_freq": true
   },
   {
    "id": "fuckip-plan-monitor",
@@ -340,6 +385,13 @@
    "high_freq": false
   },
   {
+   "id": "lazycat-plan-monitor",
+   "title": "懒猫云套餐监控（家宽／移动高速／性价比）",
+   "cadence": "15m",
+   "per_day": 96,
+   "high_freq": true
+  },
+  {
    "id": "muse-boost-price-watch",
    "title": "Muse 助力 16688 最低价监控",
    "cadence": "30m",
@@ -411,7 +463,14 @@
   },
   {
    "id": "revival-backup-daily",
-   "title": "复活包每日备份到 Google Drive",
+   "title": "复活包每日备份",
+   "cadence": "daily",
+   "per_day": 1,
+   "high_freq": false
+  },
+  {
+   "id": "roaming-office-daily-refresh",
+   "title": "漫游办公室每日刷新",
    "cadence": "daily",
    "per_day": 1,
    "high_freq": false
@@ -505,22 +564,65 @@
   "anatomy",
   "anatomy-reveal",
   "app_creation_real_device_check",
+  "av-panel",
   "board_data_sync",
   "clarify_scope_before_acting",
+  "confidence-calibration",
   "confidence_calibration",
   "conversation_mainline_discipline",
+  "dbs",
+  "dbs-action",
+  "dbs-ai-check",
+  "dbs-benchmark",
+  "dbs-chatroom",
+  "dbs-chatroom-austrian",
+  "dbs-computer-use",
+  "dbs-content",
+  "dbs-content-risk-check",
+  "dbs-content-system",
+  "dbs-content-value",
+  "dbs-decision",
+  "dbs-deconstruct",
+  "dbs-diagnosis",
+  "dbs-goal",
+  "dbs-goal-hold",
+  "dbs-good-question",
+  "dbs-human-dispatch",
+  "dbs-install-skill",
+  "dbs-jtbd",
+  "dbs-knowledge",
+  "dbs-learning",
+  "dbs-plain-writing",
+  "dbs-report",
+  "dbs-resonate",
+  "dbs-restore",
+  "dbs-save",
+  "dbs-script-flow",
+  "dbs-skill-maker",
+  "dbs-speak-human",
+  "dbs-spread",
+  "dbs-standard-answer",
+  "dbs-theory-grounding",
+  "dbs-title-cover-intro",
+  "dbs-update",
+  "dbs-video-extract",
+  "dbs-video-navigation",
+  "dbs-wechat-html",
   "defect_discovery",
   "delivery_gate",
   "flyai",
   "grok_x_search",
   "hairline-adopt",
   "hairline-create",
+  "hv-analysis",
   "identity_gated_task_handoff",
   "img2threejs",
+  "leader",
   "meituan-waimai-h5",
   "memory_scene_split",
   "monitor_alert_dedup",
   "motion-design",
+  "neat-freak",
   "oil-ui",
   "ponytail",
   "ponytail-audit",
@@ -528,6 +630,9 @@
   "ponytail-gain",
   "ponytail-help",
   "ponytail-review",
+  "qws",
+  "qws-interview",
+  "qws-zoom-out",
   "recent-design-patterns",
   "remotion-best-practices",
   "remotion-captions",
@@ -553,8 +658,8 @@
  "system_files": [
   {
    "name": "AGENTS.md",
-   "bytes": 18489,
-   "mtime": "2026-11-19"
+   "bytes": 22537,
+   "mtime": "2026-11-27"
   },
   {
    "name": "SOUL.md",
@@ -573,24 +678,25 @@
   },
   {
    "name": "MEMORY.md",
-   "bytes": 19998,
-   "mtime": "2026-11-26"
+   "bytes": 21630,
+   "mtime": "2026-11-27"
   },
   {
    "name": "TOOLS.md",
-   "bytes": 8745,
-   "mtime": "2026-11-15"
+   "bytes": 9465,
+   "mtime": "2026-11-27"
   }
  ],
  "memory": {
-  "memory_md_lines": 108,
-  "memory_files": 155,
-  "people_files": 72
+  "memory_md_lines": 117,
+  "memory_files": 162,
+  "people_files": 77
  },
  "goals_dirs": [
   "2000822-remote-service-domain",
   "3d",
   "ai",
+  "akile-ip",
   "api-ai",
   "av",
   "chat-title-daily-organization",
@@ -603,6 +709,7 @@
   "goal-13",
   "goal-14",
   "goal-15",
+  "goal-16",
   "goal-2",
   "goal-3",
   "goal-4",
@@ -670,10 +777,12 @@
    "AV 管线心跳播报（结算后停）",
    "看板同步事件调度（变化后自动触发受影响看板）",
    "六六云二手市场监控（性价比／移动／IP干净）",
+   "固定出口看门狗（mihomo 自愈）",
    "独角鲸云套餐监控（性价比／移动高速／IP-AI）",
    "HGhub Web 服务自愈巡检",
    "自建节点探针（断网提醒）",
    "邀请额度变化提醒",
+   "懒猫云套餐监控（家宽／移动高速／性价比）",
    "Muse 助力 16688 最低价监控",
    "Muse 用量 Gist 推送（每15分钟）",
    "RackNerd 黑五免费 VPS 新轮次盯哨",
