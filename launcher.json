@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22",
+ "updated": "2026-11-28",
  "spaces": [
   {
    "name": "VPS 总台",
@@ -259,6 +259,24 @@
    "cat": "日常总台",
    "fav": false,
    "added": "2026-11-22"
+  },
+  {
+   "name": "家底图 · 动态看板",
+   "slug": "jia-di-tu-dong-tai-kan-ban",
+   "color": "#84CC16",
+   "mark": "家底",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-28"
+  },
+  {
+   "name": "Muse 办公室",
+   "slug": "man-you-ban-gong-shi",
+   "color": "#818CF8",
+   "mark": "Mu",
+   "cat": "日常总台",
+   "fav": false,
+   "added": "2026-11-28"
   }
  ]
 }
